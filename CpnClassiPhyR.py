@@ -7,6 +7,7 @@ import re
 import os
 import sys
 from Bio import SeqIO
+from Bio import Seq
 from bandwagon import BandsPattern, BandsPatternsSet, custom_ladder, LADDER_100_to_4k
 
 # CpnClassiPhyR - Classification of Phytoplasma Cpn60 sequences using insilico RFLP analysis
@@ -72,6 +73,10 @@ class CpnClassiPhyR():
             digest_metadata['desc'] = desc
             digest_metadata['raw_sequence'] = sequence
             digest_metadata['raw_seq_length'] = len(sequence)
+            
+
+            digest_metadata['amino_acid_sequence'] = Seq.translate(sequence, table='Standard', stop_symbol='*', to_stop=False, cds=False, gap=None)
+            digest_metadata['amino_acid_seq_length'] = len(digest_metadata['amino_acid_sequence'])
             RFLP_digests[id] = digest_metadata
         return RFLP_digests
     
