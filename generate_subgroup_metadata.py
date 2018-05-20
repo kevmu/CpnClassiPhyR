@@ -85,21 +85,39 @@ if not os.path.exists(virtual_gel_image_dir):
     os.makedirs(virtual_gel_image_dir)
 
 subgroup_RFLP_digest_data = RFLP_digests
-for subgroup in subgroup_list:
-    RFLP_digest = RFLP_digests[subgroup]
-    subgroup_RFLP_digest = subgroup_RFLP_digest_data[subgroup]
-    phyto_strain_desc = RFLP_digest['desc']
-    print(subgroup)
+for subgroup_id in subgroup_list:
+    subgroup_RFLP_digest = subgroup_RFLP_digest_data[subgroup_id]
+    phyto_strain_desc = subgroup_RFLP_digest['desc']
+    
+    
+    print(subgroup_id)
     print(phyto_strain_desc)
+    
+    
     strain_name = re.search(r'\((.+)\)', phyto_strain_desc).group(1)
-    accension_num = phyto_strain_desc.split()[1]
-    xlabel = "cpn60 UT" + " " + subgroup + " " + "(" + strain_name + ", "  + accension_num + ")"
-    virtual_gel_filepath = CpnClassiPhyR.draw_gel(RFLP_digests[subgroup],xlabel,virtual_gel_image_dir)
+    cpndb_id = phyto_strain_desc.split(' ',3)[1]
+    genbank_accession_id = phyto_strain_desc.split(' ',3)[2]
+    desc = phyto_strain_desc.split(' ',3)[3]
+    
+    subgroup_RFLP_digest['strain_name'] = strain_name
+    subgroup_RFLP_digest['cpndb_id'] = cpndb_id
+    subgroup_RFLP_digest['genbank_accession_id'] = genbank_accession_id
+    subgroup_RFLP_digest['desc'] = desc
+    
+    print(strain_name)
+    print(cpndb_id)
+    print(genbank_accession_id)
+    print(subgroup_RFLP_digest['desc'])
+    
+    
+    xlabel = "cpn60 UT" + " " + subgroup_id + " " + "(" + strain_name + ", "  + cpndb_id + ")"
+    virtual_gel_filepath = CpnClassiPhyR.draw_gel(RFLP_digests[subgroup_id],xlabel,virtual_gel_image_dir)
 
     subgroup_RFLP_digest['virtual_gel_filepath'] = virtual_gel_filepath
 
-    subgroup_RFLP_digest_data[subgroup] = subgroup_RFLP_digest
+    subgroup_RFLP_digest_data[subgroup_id] = subgroup_RFLP_digest
     
+    RFLP_digests[subgroup_id] = subgroup_RFLP_digest
 
 json_dir = os.path.join(subgroup_metadata_dir, 'json')
 if not os.path.exists(json_dir):
