@@ -13,10 +13,6 @@ from CpnClassiPhyR import *
 
 #fasta_infile = os.path.join(app_dir, 'db', 'cpndb_nuc_phytoplasma_subgroups-2018-02-05.fasta')
 fasta_infile = os.path.join(app_dir, 'db', 'cpn60_UT_phytoplasma_subgroups.fasta')
-output_dir = app_dir
-
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
 
 # Initialize CpnClassiPhyR
 CpnClassiPhyR = CpnClassiPhyR()
@@ -26,7 +22,7 @@ RFLP_digests = CpnClassiPhyR.RFLP_digests(fasta_infile)
 subgroup_list = sorted(list(RFLP_digests.keys()))
 
 
-subgroup_metadata_dir = os.path.join(output_dir, 'subgroup_metadata')
+subgroup_metadata_dir = os.path.join(app_dir, 'subgroup_metadata')
 if not os.path.exists(subgroup_metadata_dir):
     os.makedirs(subgroup_metadata_dir)
 
