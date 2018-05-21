@@ -3,9 +3,11 @@
 import sys
 import os
 import argparse
-from Bio import SeqIO
+
 import re
 import csv
+
+from Bio import SeqIO
 
 python_path = sys.argv[0]
 app_dir = os.path.dirname(os.path.realpath(python_path))
@@ -21,7 +23,7 @@ output_dir = None
 parser.add_argument('-i', action='store', dest='fasta_infile',
                     help='fasta file as input. (i.e. filename.fasta)')
 parser.add_argument('-o', action='store', dest='output_dir',
-                    help='output directory as input. (i.e. $HOME/Desktop)')
+                    help='output directory as input. (i.e. $HOME)')
 
 parser.add_argument('--version', action='version', version='%(prog)s 1.0')
 
