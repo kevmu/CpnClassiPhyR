@@ -74,7 +74,7 @@ file_count = 1
 for fasta_record in SeqIO.parse(query_infile, "fasta"):
     
     qseqid = str(fasta_record.id)
-    qseq = str(fasta_record.seq)
+    qseq = str(fasta_record.seq).upper()
     qalltitles = str(fasta_record.description)
     blastn_cmd = " ".join([blastn, "-query", '<(echo -e \">{}\\n{}\")'.format(qalltitles, qseq), "-db", target_infile, "-task", "blastn", "-dust", "yes", "-max_target_seqs", "50", "-evalue", "1e-6", "-outfmt", "'6 qseqid salltitles qcovhsp pident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore'"])
     print(blastn_cmd)
@@ -99,12 +99,16 @@ for fasta_record in SeqIO.parse(query_infile, "fasta"):
             if(re.search('Phytoplasma', target_name)):
                 best_hit = blast_fields
                 align_length = int(best_hit[4])
-                
+                percent_identity = float(best_hit[3])
 #                print(align_length)
 #                sys.exit()
-                if((align_length >= 552) and (align_length <= 555)):
+                if((align_length >= 552) and (align_length <= 555) and (percent_identity >= 80.00)):
                     is_phytoplasma = "true"
                     break
+            else:
+                best_hit = blast_fields
+                break
+            
 
         if(is_phytoplasma == "true"):
     #        print(best_hit)
@@ -145,7 +149,7 @@ for fasta_record in SeqIO.parse(query_infile, "fasta"):
         elif(is_phytoplasma == "false"):
             print("Not a phytoplasma sequence")
             print(blast_hit_list)
-            clean_up_metadata[qseqid] = [qalltitles, "None", "Not a Phytoplasma sequence", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome&QUERY=" + qseq]
+            clean_up_metadata[qseqid] = [qalltitles, "None", "Not a Phytoplasma sequence"] + best_hit + ["https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome&QUERY=" + qseq]
             
 
     else:

@@ -9,6 +9,10 @@ import csv
 
 from Bio import SeqIO
 
+# Need to set matplotlib to use 'Agg' so that xwindows is not active and gel images can be generated.
+import matplotlib
+matplotlib.use('Agg')
+
 python_path = sys.argv[0]
 app_dir = os.path.dirname(os.path.realpath(python_path))
 sys.path.append(os.path.abspath(app_dir))

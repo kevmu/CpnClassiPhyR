@@ -10,6 +10,10 @@ from Bio import SeqIO
 from Bio import Seq
 from bandwagon import BandsPattern, BandsPatternsSet, custom_ladder, LADDER_100_to_4k
 
+# Need to set matplotlib to use 'Agg' so that xwindows is not active and gel images can be generated.
+import matplotlib
+matplotlib.use('Agg')
+
 # CpnClassiPhyR - Classification of Phytoplasma Cpn60 sequences using insilico RFLP analysis
 class CpnClassiPhyR():
 
