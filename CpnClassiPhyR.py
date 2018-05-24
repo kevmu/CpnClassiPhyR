@@ -80,7 +80,9 @@ class CpnClassiPhyR():
             
             qseqid = str(fasta_record.id)
             qseq = str(fasta_record.seq).upper()
-            qalltitles = str(fasta_record.description)
+            desc = " ".join(fasta_record.description.split()[1:])
+            sys.exit()
+            qalltitles = str("_".join([qseqid, str(file_count)])) + " " + desc
             blastn_cmd = " ".join([blastn, "-query", '<(echo -e \">{}\\n{}\")'.format(qalltitles, qseq), "-db", target_infile, "-task", "blastn", "-dust", "yes", "-max_target_seqs", "50", "-evalue", "1e-6", "-outfmt", "'6 qseqid salltitles qcovhsp pident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore'"])
             print(blastn_cmd)
             p = Popen(blastn_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
