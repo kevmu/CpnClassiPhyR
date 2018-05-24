@@ -58,6 +58,19 @@ if not os.path.exists(output_dir):
 # Initialize CpnClassiPhyR
 CpnClassiPhyR = CpnClassiPhyR()
 
+target_infile = os.path.join(app_dir, 'db', 'cpndb_nuc_phytoplasmas-2018-02-05.fasta')
+
+#print(fasta_infile)
+
+#print(target_infile)
+cpnidentiphyr_output_dir = os.path.join(output_dir, 'CpnIdentiPhyR')
+if not os.path.exists(cpnidentiphyr_output_dir):
+    os.makedirs(cpnidentiphyr_output_dir)
+
+CpnIdentiPhyR_infile = CpnClassiPhyR.CpnIdentiPhyR(fasta_infile, target_infile, cpnidentiphyr_output_dir)
+
+print(CpnIdentiPhyR_infile)
+#sys.exit()
 subgroup_metadata_dir = 'subgroup_metadata'
 subgroup_RFLP_digests = {}
 json_subgroup_metadata_infile = os.path.join(app_dir, subgroup_metadata_dir, 'json', 'subgroup_RFLP_digests.json')
@@ -67,7 +80,7 @@ with open(json_subgroup_metadata_infile) as subgroup_metadata_file:
 
 #print(subgroup_RFLP_digests)
 #sys.exit()
-RFLP_digests = CpnClassiPhyR.RFLP_digests(fasta_infile)
+RFLP_digests = CpnClassiPhyR.RFLP_digests(CpnIdentiPhyR_infile)
 
 #print(RFLP_digests)
 all_RFLP_digests = RFLP_digests.copy()
