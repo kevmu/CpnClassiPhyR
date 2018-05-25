@@ -20,10 +20,10 @@ from bandwagon import BandsPattern, BandsPatternsSet, custom_ladder, LADDER_100_
 import matplotlib
 matplotlib.use('Agg')
 
-#makeblastdb = '/usr/bin/makeblastdb';
-makeblastdb = '/usr/local/ncbi/blast/bin/makeblastdb';
-#blastn = '/usr/local/bin/blastn'
-blastn = '/usr/local/ncbi/blast/bin/blastn'
+makeblastdb = '/usr/bin/makeblastdb';
+#makeblastdb = '/usr/local/ncbi/blast/bin/makeblastdb';
+blastn = '/usr/local/bin/blastn'
+#blastn = '/usr/local/ncbi/blast/bin/blastn'
 cutadapt = '/usr/local/bin/cutadapt'
 
 # CpnClassiPhyR - Classification of Phytoplasma Cpn60 sequences using insilico RFLP analysis
@@ -81,7 +81,6 @@ class CpnClassiPhyR():
             qseqid = str(fasta_record.id)
             qseq = str(fasta_record.seq).upper()
             desc = " ".join(fasta_record.description.split()[1:])
-            sys.exit()
             qalltitles = str("_".join([qseqid, str(file_count)])) + " " + desc
             blastn_cmd = " ".join([blastn, "-query", '<(echo -e \">{}\\n{}\")'.format(qalltitles, qseq), "-db", target_infile, "-task", "blastn", "-dust", "yes", "-max_target_seqs", "50", "-evalue", "1e-6", "-outfmt", "'6 qseqid salltitles qcovhsp pident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore'"])
             print(blastn_cmd)
@@ -109,7 +108,7 @@ class CpnClassiPhyR():
                         percent_identity = float(best_hit[3])
                         #                print(align_length)
                         #                sys.exit()
-                        if((align_length >= 552) and (align_length <= 555)):
+                        if(((align_length >= 530) and (align_length <= 560)) and (percent_identity >= 80)):
                             is_phytoplasma = "true"
                             break
                     else:

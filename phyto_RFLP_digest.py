@@ -59,7 +59,7 @@ if not os.path.exists(output_dir):
 CpnClassiPhyR = CpnClassiPhyR()
 
 target_infile = os.path.join(app_dir, 'db', 'cpndb_nuc_phytoplasmas-2018-02-05.fasta')
-
+#target_ infile = os.path.join(app_dir, 'db', 'cpndb_nr_phyto_nuc.fasta')
 #print(fasta_infile)
 
 #print(target_infile)
@@ -168,7 +168,7 @@ subgroup_matches_output_file = csv.writer(f)
 subgroup_matches_output_file.writerow(['Strain', 'Subgroup Match', 'Similarity Coefficient Calculation', 'F Value'])
 for strain_x in strain_list:
     strain_y = best_subgroup_matches[strain_x]
-    subgroup_matches_output_file.writerow([strain_x, strain_y, "F = (2 * " + str(sc_matrix_data[str((strain_x,strain_y))]['Nxy']) + ") / ( " + str(sc_matrix_data[str((strain_x,strain_y))]['Nx']) + " + " + str(sc_matrix_data[str((strain_x,strain_y))]['Ny']) + " )", sc_matrix_data[str((strain_x,strain_y))]['F_value']])
+    subgroup_matches_output_file.writerow([strain_x, strain_y, "F = ( 2 * " + str(sc_matrix_data[str((strain_x,strain_y))]['Nxy']) + " ) / ( " + str(sc_matrix_data[str((strain_x,strain_y))]['Nx']) + " + " + str(sc_matrix_data[str((strain_x,strain_y))]['Ny']) + " )", sc_matrix_data[str((strain_x,strain_y))]['F_value']])
 f.close()
 
 
