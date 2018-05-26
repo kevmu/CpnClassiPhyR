@@ -1,7 +1,6 @@
-CpnClassiPhyR: a cpn60 universal target-based classification tool for phytoplasma.
-
-
 Welcome to the CpnClassiPhyR Github Page!
+
+CpnClassiPhyR: a cpn60 universal target-based classification tool for phytoplasma.
 
 To access the CpnClassiPhyR Website User Interface go to the following website URL.
 
