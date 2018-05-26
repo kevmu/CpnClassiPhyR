@@ -233,9 +233,10 @@ class CpnClassiPhyR():
             digest_metadata['raw_sequence'] = sequence
             digest_metadata['raw_seq_length'] = len(sequence)
             
-            #NEEDS FIXING NOT SURE WHY IT IS BREAKING BECAUSE OF STRING :(
-#            digest_metadata['amino_acid_sequence'] = Seq.translate(fasta_record.seq, table='Standard', stop_symbol='*', to_stop=False, cds=False, gap=None)
-#            digest_metadata['amino_acid_seq_length'] = len(digest_metadata['amino_acid_sequence'])
+            amino_acid_sequence = Seq.translate(fasta_record.seq, table='Standard', stop_symbol='*', to_stop=False, cds=False, gap=None)
+#            print(str(amino_acid_sequence))
+            digest_metadata['amino_acid_sequence'] = str(amino_acid_sequence)
+            digest_metadata['amino_acid_seq_length'] = len(digest_metadata['amino_acid_sequence'])
             RFLP_digests[id] = digest_metadata
         return RFLP_digests
     
