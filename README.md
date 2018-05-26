@@ -1,12 +1,11 @@
 CpnClassiPhyR: a cpn60 universal target-based classification tool for phytoplasma.
 
 
-
 Welcome to the CpnClassiPhyR Github Page!
 
 To access the CpnClassiPhyR Website User Interface go to the following website URL.
 
-http://cpnclassiphyr.ca/pages/index.php
+http://cpnclassiphyr.ca/CpnClassiPhyR.php
 
 
 To clone this repository use the following git command:
