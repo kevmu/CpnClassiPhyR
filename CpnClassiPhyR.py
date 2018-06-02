@@ -108,7 +108,7 @@ class CpnClassiPhyR():
                         percent_identity = float(best_hit[3])
                         #                print(align_length)
                         #                sys.exit()
-                        if(((align_length >= 530) and (align_length <= 560)) and (percent_identity >= 80)):
+                        if(((align_length >= 530) and (align_length <= 560)) and (percent_identity >= 70)):
                             is_phytoplasma = "true"
                             break
                     else:
