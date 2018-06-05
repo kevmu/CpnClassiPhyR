@@ -421,9 +421,6 @@ class CpnClassiPhyR():
 #                print(similarity_coefficients[str((strain1,strain2))])
 #        sys.exit()
         return similarity_coefficients
-Jadian V. Basaraba
-
-
 
     def draw_gel(self,digest_metadata,xlabel,output_dir):
         strain_name = digest_metadata['ID']
