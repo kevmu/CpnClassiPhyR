@@ -107,18 +107,18 @@ num_bands_output_file = csv.writer(f)
 header = []
 renzyme_list = sorted(CpnClassiPhyR.renzymes)
 for renzyme in renzyme_list:
-    header.append(renzyme + '_' + 'band_sizes')
-    header.append(renzyme + '_' + 'num_bands')
+    header.append(renzyme + ' ' + 'Band Sizes')
+    header.append(renzyme + ' ' + 'Number of Bands')
 
 num_bands_output_file.writerow(['cpn60 UT', 'Strain'] + header)
 
 for strain in all_strains_list:
     RFLP_digest = all_RFLP_digests[strain]
-    phyto_strain_desc = RFLP_digest['desc']
+    phyto_strain_desc = RFLP_digest['Description']
     line = []
     for renzyme in renzyme_list:
-        line.append(RFLP_digest[str((renzyme,'band_sizes'))])
-        line.append(RFLP_digest[str((renzyme,'num_bands'))])
+        line.append(RFLP_digest[str((renzyme,'Band Sizes'))])
+        line.append(RFLP_digest[str((renzyme,'Number of Bands'))])
     
     num_bands_output_file.writerow([strain, phyto_strain_desc] + line)
 
@@ -140,8 +140,8 @@ for strain_x in all_strains_list:
 #        print('First: {0[0]}, Second: {0[1]}'.format((strain_x,strain_y)))
 #        print(sc_matrix_data[str((strain_x,strain_y))])
 
-        line.append(sc_matrix_data[str((strain_x,strain_y))]['F_value'])
-        strain_sc_matrix_data[str((strain_x, strain_y))] = sc_matrix_data[str((strain_x,strain_y))]['F_value']
+        line.append(sc_matrix_data[str((strain_x,strain_y))]['F Value'])
+        strain_sc_matrix_data[str((strain_x, strain_y))] = sc_matrix_data[str((strain_x,strain_y))]['F Value']
     
     matrix_output_file.writerow(line)
 f.close()
@@ -155,7 +155,7 @@ for strain_x in strain_list:
 #        print('First: {0[0]}, Second: {0[1]}'.format((strain_x,strain_y)))
 #        print(sc_matrix_data[str((strain_x,strain_y))])
 
-        F_value = float(sc_matrix_data[str((strain_x,strain_y))]['F_value'])
+        F_value = float(sc_matrix_data[str((strain_x,strain_y))]['F Value'])
         if(F_value > current_subgroup_F_value):
             current_subgroup_F_value = F_value
             current_subgroup_strain = strain_y
@@ -168,7 +168,7 @@ subgroup_matches_output_file = csv.writer(f)
 subgroup_matches_output_file.writerow(['Strain', 'Subgroup Match', 'Similarity Coefficient Calculation', 'F Value'])
 for strain_x in strain_list:
     strain_y = best_subgroup_matches[strain_x]
-    subgroup_matches_output_file.writerow([strain_x, strain_y, "F = ( 2 * " + str(sc_matrix_data[str((strain_x,strain_y))]['Nxy']) + " ) / ( " + str(sc_matrix_data[str((strain_x,strain_y))]['Nx']) + " + " + str(sc_matrix_data[str((strain_x,strain_y))]['Ny']) + " )", sc_matrix_data[str((strain_x,strain_y))]['F_value']])
+    subgroup_matches_output_file.writerow([strain_x, strain_y, "F = ( 2 * " + str(sc_matrix_data[str((strain_x,strain_y))]['Nxy']) + " ) / ( " + str(sc_matrix_data[str((strain_x,strain_y))]['Nx']) + " + " + str(sc_matrix_data[str((strain_x,strain_y))]['Ny']) + " )", sc_matrix_data[str((strain_x,strain_y))]['F Value']])
 f.close()
 
 
@@ -181,13 +181,13 @@ strain_RFLP_digest_data = RFLP_digests
 for strain in strain_list:
     RFLP_digest = RFLP_digests[strain]
     strain_RFLP_digest = strain_RFLP_digest_data[strain]
-    phyto_strain_desc = RFLP_digest['desc']
+    phyto_strain_desc = RFLP_digest['Description']
 #    print(strain)
 #    print(phyto_strain_desc)
     xlabel = strain + ", cpn60 UT " + best_subgroup_matches[strain]
     virtual_gel_filepath = CpnClassiPhyR.draw_gel(RFLP_digests[strain],xlabel,virtual_gel_image_dir)
     
-    strain_RFLP_digest['virtual_gel_filepath'] = virtual_gel_filepath
+    strain_RFLP_digest['Virtual Gel Filepath'] = virtual_gel_filepath
     
     strain_RFLP_digest_data[strain] = strain_RFLP_digest
 

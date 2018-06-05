@@ -42,18 +42,18 @@ num_bands_output_file = csv.writer(f)
 header = []
 renzyme_list = sorted(CpnClassiPhyR.renzymes)
 for renzyme in renzyme_list:
-    header.append(renzyme + '_' + 'band_sizes')
-    header.append(renzyme + '_' + 'num_bands')
+    header.append(renzyme + ' ' + 'Band Sizes')
+    header.append(renzyme + ' ' + 'Number of Bands')
 
 num_bands_output_file.writerow(['cpn60 UT group', 'Strain'] + header)
 subgroup_list = sorted(list(RFLP_digests.keys()))
 for subgroup in subgroup_list:
     RFLP_digest = RFLP_digests[subgroup]
-    phyto_strain_desc = RFLP_digest['desc']
+    phyto_strain_desc = RFLP_digest['Description']
     line = []
     for renzyme in renzyme_list:
-        line.append(RFLP_digest[str((renzyme,'band_sizes'))])
-        line.append(RFLP_digest[str((renzyme,'num_bands'))])
+        line.append(RFLP_digest[str((renzyme,'Band Sizes'))])
+        line.append(RFLP_digest[str((renzyme,'Number of Bands'))])
 
     num_bands_output_file.writerow([subgroup, phyto_strain_desc] + line)
 
@@ -75,7 +75,7 @@ for strain_x in subgroup_list:
         print('First: {0[0]}, Second: {0[1]}'.format((strain_x,strain_y)))
         print(sc_matrix_data[str((strain_x,strain_y))])
 
-        line.append(sc_matrix_data[str((strain_x,strain_y))]['F_value'])
+        line.append(sc_matrix_data[str((strain_x,strain_y))]['F Value'])
         subgroup_sc_matrix_data[str((strain_x, strain_y))] = sc_matrix_data[str((strain_x,strain_y))]
 
     matrix_output_file.writerow(line)
@@ -88,7 +88,7 @@ if not os.path.exists(virtual_gel_image_dir):
 subgroup_RFLP_digest_data = RFLP_digests
 for subgroup_id in subgroup_list:
     subgroup_RFLP_digest = subgroup_RFLP_digest_data[subgroup_id]
-    phyto_strain_desc = subgroup_RFLP_digest['desc']
+    phyto_strain_desc = subgroup_RFLP_digest['Description']
     
     
     print(subgroup_id)
@@ -100,21 +100,21 @@ for subgroup_id in subgroup_list:
     genbank_accession_id = phyto_strain_desc.split(' ',3)[2]
     desc = phyto_strain_desc.split(' ',3)[3]
     
-    subgroup_RFLP_digest['strain_name'] = strain_name
-    subgroup_RFLP_digest['cpndb_id'] = cpndb_id
-    subgroup_RFLP_digest['genbank_accession_id'] = genbank_accession_id
-    subgroup_RFLP_digest['desc'] = desc
+    subgroup_RFLP_digest['Strain Name'] = strain_name
+    subgroup_RFLP_digest['CpnDB ID'] = cpndb_id
+    subgroup_RFLP_digest['Genbank Accession ID'] = genbank_accession_id
+    subgroup_RFLP_digest['Description'] = desc
     
     print(strain_name)
     print(cpndb_id)
     print(genbank_accession_id)
-    print(subgroup_RFLP_digest['desc'])
+    print(subgroup_RFLP_digest['Description'])
     
     
     xlabel = "cpn60 UT" + " " + subgroup_id + " " + "(" + strain_name + ", "  + cpndb_id + ")"
     virtual_gel_filepath = CpnClassiPhyR.draw_gel(RFLP_digests[subgroup_id],xlabel,virtual_gel_image_dir)
 
-    subgroup_RFLP_digest['virtual_gel_filepath'] = virtual_gel_filepath
+    subgroup_RFLP_digest['Virtual Gel Filepath'] = virtual_gel_filepath
 
     subgroup_RFLP_digest_data[subgroup_id] = subgroup_RFLP_digest
     

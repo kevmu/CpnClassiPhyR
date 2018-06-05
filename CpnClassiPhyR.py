@@ -62,9 +62,9 @@ class CpnClassiPhyR():
         fastadbNIN = target_infile + '.nin'
         fastadbNSQ = target_infile + '.nsq'
         fastadbNHR = target_infile + '.nhr'
-        if(not(os.path.exists(fastadbNIN) and (os.path.getsize(fastadbNIN) > 0))
-           and not(os.path.exists(fastadbNSQ) and (os.path.getsize(fastadbNSQ) > 0))
-           and not(os.path.exists(fastadbNHR) and (os.path.getsize(fastadbNHR) > 0))):
+        if(not(os.path.exists(fastadbNIN) or (os.path.getsize(fastadbNIN) == 0))
+           and not(os.path.exists(fastadbNSQ) or (os.path.getsize(fastadbNSQ) == 0))
+           and not(os.path.exists(fastadbNHR) or (os.path.getsize(fastadbNHR) == 0))):
             #warn "Calling makeblastdb for fastadb....\n";
             #warn "makeblastdb -in fastadb -dbtype nucl\n\n";
             os.system(makeblastdb +  ' ' + '-in' + ' ' + target_infile + ' ' + '-dbtype' + ' ' + 'nucl')
@@ -82,6 +82,7 @@ class CpnClassiPhyR():
             qseq = str(fasta_record.seq).upper()
             desc = " ".join(fasta_record.description.split()[1:])
             qalltitles = str("_".join([qseqid, str(file_count)])) + " " + desc
+            #NEED TO MAKE THIS LINE MORE ROBUST BY SAVING THE FILE AND USING IT AS THE QUERY INPUT FOR LONGER SEQUENCES
             blastn_cmd = " ".join([blastn, "-query", '<(echo -e \">{}\\n{}\")'.format(qalltitles, qseq), "-db", target_infile, "-task", "blastn", "-dust", "yes", "-max_target_seqs", "50", "-evalue", "1e-6", "-outfmt", "'6 qseqid salltitles qcovhsp pident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore'"])
             print(blastn_cmd)
             p = Popen(blastn_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
@@ -108,7 +109,7 @@ class CpnClassiPhyR():
                         percent_identity = float(best_hit[3])
                         #                print(align_length)
                         #                sys.exit()
-                        if(((align_length >= 530) and (align_length <= 560)) and (percent_identity >= 80)):
+                        if(((align_length >= 530) and (align_length <= 560)) and (percent_identity >= 70)):
                             is_phytoplasma = "true"
                             break
                     else:
@@ -206,12 +207,12 @@ class CpnClassiPhyR():
         for renzyme in sorted(self.renzymes):
             rsite_regex = self.renzymes[renzyme]
             digested_seq = re.sub(rsite_regex, r'\1 \2', seq).split(' ')
-            digest_metadata[str((renzyme, 'fragments'))] = digested_seq
-            digest_metadata[str((renzyme, 'num_bands'))] = len(digested_seq)
+            digest_metadata[str((renzyme, 'Fragments'))] = digested_seq
+            digest_metadata[str((renzyme, 'Number of Bands'))] = len(digested_seq)
             band_sizes = []
             for fragments in digested_seq:
                band_sizes.append(len(fragments))
-            digest_metadata[str((renzyme, 'band_sizes'))] = band_sizes
+            digest_metadata[str((renzyme, 'Band Sizes'))] = band_sizes
 
 
         return digest_metadata
@@ -228,15 +229,15 @@ class CpnClassiPhyR():
             print(sequence)
 #            sys.exit()
             digest_metadata = self.RFLP_digest(sequence)
-            digest_metadata['id'] = id
-            digest_metadata['desc'] = desc
-            digest_metadata['raw_sequence'] = sequence
-            digest_metadata['raw_seq_length'] = len(sequence)
+            digest_metadata['ID'] = id
+            digest_metadata['Description'] = desc
+            digest_metadata['Nucleotide UT Sequence'] = sequence
+            digest_metadata['Nucleotide UT Sequence Length'] = len(sequence)
             
             amino_acid_sequence = Seq.translate(fasta_record.seq, table='Standard', stop_symbol='*', to_stop=False, cds=False, gap=None)
 #            print(str(amino_acid_sequence))
-            digest_metadata['amino_acid_sequence'] = str(amino_acid_sequence)
-            digest_metadata['amino_acid_seq_length'] = len(digest_metadata['amino_acid_sequence'])
+            digest_metadata['Peptide UT Sequence'] = str(amino_acid_sequence)
+            digest_metadata['Peptide UT Sequence Length'] = len(digest_metadata['Peptide UT Sequence'])
             RFLP_digests[id] = digest_metadata
         return RFLP_digests
     
@@ -364,16 +365,16 @@ class CpnClassiPhyR():
         Ny = 0
         Nxy = 0
         for renzyme in sorted(self.renzymes):
-#            print(RFLP_digest1[str((renzyme,'band_sizes'))])
-#            print(RFLP_digest2[str((renzyme,'band_sizes'))])
+#            print(RFLP_digest1[str((renzyme,'Band Sizes'))])
+#            print(RFLP_digest2[str((renzyme,'Band Sizes'))])
 #            
-#            common_bands[str((renzyme,'common_bands'))] = self.common_band_count(RFLP_digest1[str((renzyme,'band_sizes'))], RFLP_digest2[str((renzyme,'band_sizes'))])
+#            common_bands[str((renzyme,'common_bands'))] = self.common_band_count(RFLP_digest1[str((renzyme,'Band Sizes'))], RFLP_digest2[str((renzyme,'Band Sizes'))])
 #            
 #            print(common_bands[str((renzyme,'common_bands'))])
-            Nx += RFLP_digest1[str((renzyme,'num_bands'))]
-            Ny += RFLP_digest2[str((renzyme,'num_bands'))]
+            Nx += RFLP_digest1[str((renzyme,'Number of Bands'))]
+            Ny += RFLP_digest2[str((renzyme,'Number of Bands'))]
 #            print(renzyme)
-            Nxy += self.common_band_count(RFLP_digest1[str((renzyme,'band_sizes'))], RFLP_digest2[str((renzyme,'band_sizes'))])
+            Nxy += self.common_band_count(RFLP_digest1[str((renzyme,'Band Sizes'))], RFLP_digest2[str((renzyme,'Band Sizes'))])
         
         # F=2(Nxy)/Nx+Ny
         F = (2 * Nxy) / (Nx + Ny)
@@ -388,7 +389,7 @@ class CpnClassiPhyR():
         similarity_coefficient['Ny'] = Ny
         similarity_coefficient['Nxy'] = Nxy
         similarity_coefficient['F'] = F
-        similarity_coefficient['F_value'] = F_value
+        similarity_coefficient['F Value'] = F_value
         
         return similarity_coefficient
 
@@ -414,18 +415,18 @@ class CpnClassiPhyR():
 #                print(RFLP_digests[strain2])
 
                 similarity_coefficient_metadata = self.calc_similarity_coefficient(RFLP_digests[strain1], RFLP_digests[strain2])
-#                    similarity_coefficients[str((strain1,strain2))] = similarity_coefficient_metadata['F_value']
+#                    similarity_coefficients[str((strain1,strain2))] = similarity_coefficient_metadata['F Value']
 
                 similarity_coefficients[str((strain1,strain2))] = similarity_coefficient_metadata
 #                print(similarity_coefficients[str((strain1,strain2))])
 #        sys.exit()
         return similarity_coefficients
-
+Jadian V. Basaraba
 
 
 
     def draw_gel(self,digest_metadata,xlabel,output_dir):
-        strain_name = digest_metadata['id']
+        strain_name = digest_metadata['ID']
         cpn60UT_ladder = custom_ladder("cpn60UT", {
                                        25: 250,
                                        50: 225,
@@ -453,7 +454,7 @@ class CpnClassiPhyR():
         ladder = LADDER_100_to_1k.modified(background_color="#E2EDFF", label_fontdict={"rotation": -90}, label="MW")
         patterns = []
         for renzyme in sorted(self.renzymes):
-            patterns.append(BandsPattern(digest_metadata[str((renzyme, 'band_sizes'))], ladder, label_fontdict={"rotation": -90}, label=renzyme))
+            patterns.append(BandsPattern(digest_metadata[str((renzyme, 'Band Sizes'))], ladder, label_fontdict={"rotation": -90}, label=renzyme))
         #    patterns_set = BandsPatternsSet(patterns=[ladder] + patterns, ladder=ladder, label_fontdict={"size": 7}, label="Migration Distance", ladder_ticks=3)
         patterns_set = BandsPatternsSet(patterns=[ladder] + patterns, ladder=ladder, ladder_ticks=3)
         ax = patterns_set.plot()
