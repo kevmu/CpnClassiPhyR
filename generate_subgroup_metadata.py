@@ -95,7 +95,7 @@ for subgroup_id in subgroup_list:
     print(phyto_strain_desc)
     
     
-    strain_name = re.search(r'\((.+)\)', phyto_strain_desc).group(1)
+    strain_name = re.search(r'\s\((.+)\)$', phyto_strain_desc).group(1)
     cpndb_id = phyto_strain_desc.split(' ',3)[1]
     genbank_accession_id = phyto_strain_desc.split(' ',3)[2]
     desc = phyto_strain_desc.split(' ',3)[3]
@@ -104,7 +104,8 @@ for subgroup_id in subgroup_list:
     subgroup_RFLP_digest['CpnDB ID'] = cpndb_id
     subgroup_RFLP_digest['Genbank Accession ID'] = genbank_accession_id
     subgroup_RFLP_digest['Description'] = desc
-    
+    subgroup_filename = subgroup_id.replace("/", "-").replace("(", "_").replace(")", "_")
+    subgroup_RFLP_digest['Filename'] = subgroup_filename
     print(strain_name)
     print(cpndb_id)
     print(genbank_accession_id)
