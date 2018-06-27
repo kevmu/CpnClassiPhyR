@@ -165,10 +165,29 @@ for strain_x in strain_list:
 subgroup_matches_outfile = os.path.join(data_dir, 'subgroup_matches.csv')
 f = open(subgroup_matches_outfile, 'w')
 subgroup_matches_output_file = csv.writer(f)
-subgroup_matches_output_file.writerow(['Strain', 'Subgroup Match', 'Similarity Coefficient Calculation', 'F Value'])
+subgroup_matches_output_file.writerow(['Strain', 'Best Match', 'Similarity Coefficient Calculation', 'F Value', 'Classification'])
 for strain_x in strain_list:
     strain_y = best_subgroup_matches[strain_x]
-    subgroup_matches_output_file.writerow([strain_x, strain_y, "F = ( 2 * " + str(sc_matrix_data[str((strain_x,strain_y))]['Nxy']) + " ) / ( " + str(sc_matrix_data[str((strain_x,strain_y))]['Nx']) + " + " + str(sc_matrix_data[str((strain_x,strain_y))]['Ny']) + " )", sc_matrix_data[str((strain_x,strain_y))]['F Value']])
+    
+    classification = ""
+    f_value_calc = float(sc_matrix_data[str((strain_x,strain_y))]['F Value'])
+    
+    group = strain_y.split('-')[0]
+    subgroup = strain_y.split('-')[1]
+    if(f_value_calc < 0.59):
+        classification = "Probable new Cpn60 UT group"
+    elif(f_value_calc >= 0.59):
+        if(f_value_calc < 0.97):
+            classification = "Probable new subgroup in Cpn60 UT " + group
+        
+        elif(f_value_calc >= 0.97):
+            classification = "Closest match is Cpn60 UT " + strain_y
+        
+            if(f_value_calc == 1.00):
+                classification = "Exact match to Cpn60 UT " + strain_y
+
+
+    subgroup_matches_output_file.writerow([strain_x, strain_y, "F = ( 2 * " + str(sc_matrix_data[str((strain_x,strain_y))]['Nxy']) + " ) / ( " + str(sc_matrix_data[str((strain_x,strain_y))]['Nx']) + " + " + str(sc_matrix_data[str((strain_x,strain_y))]['Ny']) + " )", f_value_calc, classification])
 f.close()
 
 
