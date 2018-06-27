@@ -45,7 +45,20 @@ class CpnClassiPhyR():
             'HpaI': r'(GTT)(AAC)', # 'HpaI': 'GTT^AAC', # pos 3
             'MseI': r'(T)(TAA)', # 'MseI': 'T^TAA', # pos 1
             'RsaI': r'(GT)(AC)', # 'RsaI': 'GT^AC', # pos 2
-            'TaqI': r'(T)(CGA)' # 'TaqI': 'T^CGA', # pos 1
+            'TaqI': r'(T)(CGA)', # 'TaqI': 'T^CGA', # pos 1
+            
+#            # New Enzymes to add.
+#            'BamHI': r'(G)(GATCC)', # 'BamHI': 'G^GATCC', # pos 1
+#            'BstUI': r'(CG)(CG)', # 'BstUI': 'CG^CG', # pos 2
+#            'DraI': r'(TTT)(AAA)', # 'DraI': 'TTT^AAAA', # pos 3
+#            'EcoRI': r'(G)(AATTC)', # 'EcoRI': 'G^AATTC', # pos 1
+#            'HaeIII': r'(GG)(CC)', # 'HaeIII': 'GG^CC', # pos 2
+#            'HhaI': r'(GCG)(C)', # 'HhaI': 'GCG^C', # pos 3
+#            'HpaII': r'(C)(CGG)', # 'HpaII': 'C^CGG', # pos 1
+#            'KpnI': r'(GGTAC)(C)', # 'KpnI': 'GGTAC^C', # pos 5
+#            'Sau3AI': r'(N)GATC(N)', # 'Sau3AI': '^GATC', # pos 0
+#            'SspI': r'(AAT)(ATT)' # 'SspI': 'AAT^ATT', # pos 3
+
         }
 
 #    def rsites(self):
@@ -456,7 +469,9 @@ class CpnClassiPhyR():
         patterns_set = BandsPatternsSet(patterns=[ladder] + patterns, ladder=ladder, ladder_ticks=3)
         ax = patterns_set.plot()
         ax.set_xlabel(xlabel)
-        outfile = os.path.join(output_dir, strain_name + ".png")
+
+        strain_filename = strain_name.replace("/", "-").replace("(", "_").replace(")", "_")
+        outfile = os.path.join(output_dir, strain_filename + ".png")
         if not os.path.exists(outfile):
             ax.figure.savefig(outfile, bbox_inches="tight", dpi=600)
 
