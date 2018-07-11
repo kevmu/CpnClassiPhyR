@@ -139,7 +139,6 @@ class CpnClassiPhyR():
                     if(target_strand == "plus"):
                         print(target_strand)
                         
-                        qseqrc = Seq(qseq).reverse_complement()
                         cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.04", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
                         print(cutadapt_cmd)
                         p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
@@ -150,7 +149,7 @@ class CpnClassiPhyR():
                         print(cutadapt_output)
                         print(err.decode("utf-8"))
                         print(p_status)
-                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ["Phytoplasma sequence (+ strand)"]
+                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (+ strand)']
                     elif(target_strand == "minus"):
                         #                print(target_strand)
                         
@@ -165,15 +164,15 @@ class CpnClassiPhyR():
                         print(cutadapt_output)
                         print(err.decode("utf-8"))
                         print(p_status)
-                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ["Phytoplasma sequence (- strand)"]
+                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (- strand)']
 
                 elif(is_phytoplasma == "false"):
                     print("Not a phytoplasma sequence")
                     print(blast_hit_list)
                     if(best_hit == None):
-                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles, "None", "Not a Phytoplasma sequence"] + ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'] + ["https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome&QUERY=" + qseq]
+                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles, 'N/A', 'No Phytoplasma sequence matches', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'Not a Phytoplasma sequence']
                     else:
-                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles, "None", "Not a Phytoplasma sequence"] + best_hit + ["https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome&QUERY=" + qseq]
+                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Not a Phytoplasma sequence']
 
 
             else:
@@ -187,6 +186,7 @@ class CpnClassiPhyR():
 
         f = open(clean_up_metadata_outfile, 'w')
         output_file = csv.writer(f)
+        output_file.writerow(["Sequence ID", "Description",	"Query ID","Target ID",	"Coverage", "Percent Identity", "Length", "Mismatch", "Gap Open", "Query Start", "Query End", "Target Start", "Target End", "Strandedness", "E-Value", "Bit Score", "Classification"])
         for qseqid in clean_up_metadata:
             output_file.writerow([qseqid] + clean_up_metadata[qseqid])
         f.close()
