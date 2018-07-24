@@ -122,9 +122,10 @@ class CpnClassiPhyR():
                         percent_identity = float(best_hit[3])
                         #                print(align_length)
                         #                sys.exit()
-                        if(((align_length >= 530) and (align_length <= 560)) and (percent_identity >= 70)):
+                        if(((align_length >= 450) and (align_length <= 555)) and (percent_identity >= 70)):
                             is_phytoplasma = "true"
                             break
+                
                     else:
                         best_hit = blast_fields
                         break
@@ -135,11 +136,15 @@ class CpnClassiPhyR():
                     target_strand = best_hit[11]
                     #        print(target_strand)
                     blastn_outfile = os.path.join(output_dir, "_".join([qseqid, str(file_count), "trimmed-sense.fasta"]))
-                    processed_filepaths.append(blastn_outfile)
+                    align_length = int(best_hit[4])
+                    percent_identity = float(best_hit[3])
+                    if(((align_length >= 552) and (align_length <= 555)) and (percent_identity >= 70)):
+                        processed_filepaths.append(blastn_outfile)
+                    
                     if(target_strand == "plus"):
                         print(target_strand)
                         
-                        cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.04", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
+                        cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
                         print(cutadapt_cmd)
                         p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
                         (cutadapt_results, err) = p.communicate()
@@ -154,7 +159,7 @@ class CpnClassiPhyR():
                         #                print(target_strand)
                         
                         qseqrc = Seq(qseq).reverse_complement()
-                        cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseqrc), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.04", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
+                        cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseqrc), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
                         print(cutadapt_cmd)
                         p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
                         (cutadapt_results, err) = p.communicate()
