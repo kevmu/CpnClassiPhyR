@@ -1,0 +1,39 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K (2018)
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (https://doi.org/10.1093/molbev/msy096)
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K (2012)
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =       31
+	Data File                               = '/var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/db/subgroups_tree.fasta'
+	Settings File                           = '/var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/db/clustalw_align.mao'
+	Command Line                            = /usr/lib/megax/megacc -d /var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/db/subgroups_tree.fasta -a /var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/db/clustalw_align.mao -o /var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/db/subgroups_clustalw_align
+
+[Analysis Settings]
+
+	DNAPWGapOpenPenalty                     = 15.00
+	DNAPWGapExtendPenalty                   = 6.66
+	DNAGapOpenPenalty                       = 15.00
+	DNAGapExtendPenalty                     = 6.66
+	DNAMatrix                               = 
+	TransitionWeight                        = 0.50
+	UseNegativeMatrix                       = True
+	DivergentCutoff                         = 30
+	ResetGaps                               = False
+
+[Analysis Statistics]
+
+	Start Time                              = 09/25/2018 02:46:18 AM
+	End Time                                = 09/25/2018 02:46:33 AM
+	Execution Time                          =   14.477 (seconds)
+	Peak Memory Used(Working Set)           = Not available
