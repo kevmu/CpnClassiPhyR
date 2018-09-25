@@ -58,8 +58,8 @@ if not os.path.exists(output_dir):
 # Initialize CpnClassiPhyR
 CpnClassiPhyR = CpnClassiPhyR()
 
-target_infile = os.path.join(app_dir, 'db', 'cpndb_nuc_phytoplasmas-2018-02-05.fasta')
-#target_ infile = os.path.join(app_dir, 'db', 'cpndb_nr_phyto_nuc.fasta')
+#target_infile = os.path.join(app_dir, 'db', 'cpndb_nuc_phytoplasmas-2018-02-05.fasta')
+target_infile = os.path.join(app_dir, 'db', 'cpndb_nr_phyto_nuc.fasta')
 #print(fasta_infile)
 
 #print(target_infile)
