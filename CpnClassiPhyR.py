@@ -12,6 +12,8 @@ import sys
 from Bio import SeqIO
 from Bio import Seq
 from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+
 from subprocess import Popen, PIPE
 
 from bandwagon import BandsPattern, BandsPatternsSet, custom_ladder, LADDER_100_to_4k
@@ -75,9 +77,9 @@ class CpnClassiPhyR():
         fastadbNIN = target_infile + '.nin'
         fastadbNSQ = target_infile + '.nsq'
         fastadbNHR = target_infile + '.nhr'
-        if(not(os.path.exists(fastadbNIN) or (os.path.getsize(fastadbNIN) == 0))
-           and not(os.path.exists(fastadbNSQ) or (os.path.getsize(fastadbNSQ) == 0))
-           and not(os.path.exists(fastadbNHR) or (os.path.getsize(fastadbNHR) == 0))):
+        if(not(os.path.exists(fastadbNIN) or (os.path.getsize(fastadbNIN) != 0))
+           and not(os.path.exists(fastadbNSQ) or (os.path.getsize(fastadbNSQ) != 0))
+           and not(os.path.exists(fastadbNHR) or (os.path.getsize(fastadbNHR) != 0))):
             #warn "Calling makeblastdb for fastadb....\n";
             #warn "makeblastdb -in fastadb -dbtype nucl\n\n";
             os.system(makeblastdb +  ' ' + '-in' + ' ' + target_infile + ' ' + '-dbtype' + ' ' + 'nucl')
@@ -116,13 +118,16 @@ class CpnClassiPhyR():
                     blast_fields = blast_hit.split('\t')
                     target_name = blast_fields[1]
                     #        print(target_name)
-                    if(re.search('Phytoplasma', target_name)):
+                    if(re.search('Phytoplasma', target_name, re.IGNORECASE)):
                         best_hit = blast_fields
                         align_length = int(best_hit[4])
                         percent_identity = float(best_hit[3])
                         #                print(align_length)
                         #                sys.exit()
-                        if(((align_length >= 450) and (align_length <= 555)) and (percent_identity >= 70)):
+                        if(((align_length >= 552) and (align_length <= 555)) and (percent_identity >= 70)):
+                            is_phytoplasma = "true"
+                            break
+                        elif(((align_length >= 450) and (align_length < 552)) and (percent_identity >= 72)):
                             is_phytoplasma = "true"
                             break
                 
@@ -136,41 +141,74 @@ class CpnClassiPhyR():
                     target_strand = best_hit[11]
                     #        print(target_strand)
                     blastn_outfile = os.path.join(output_dir, "_".join([qseqid, str(file_count), "trimmed-sense.fasta"]))
+                    
+                    seq_id = "_".join([qseqid, str(file_count)])
+                    description = fasta_record.description
                     align_length = int(best_hit[4])
                     percent_identity = float(best_hit[3])
+                    
+                    qstart = int(blast_fields[7])
+                    qend = int(blast_fields[8])
+                    
                     if(((align_length >= 552) and (align_length <= 555)) and (percent_identity >= 70)):
                         processed_filepaths.append(blastn_outfile)
                     
                     if(target_strand == "plus"):
                         print(target_strand)
-                        
-                        cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
-                        print(cutadapt_cmd)
-                        p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
-                        (cutadapt_results, err) = p.communicate()
-                        p_status = p.wait()
-                        
-                        cutadapt_output = cutadapt_results.decode("utf-8")
-                        print(cutadapt_output)
-                        print(err.decode("utf-8"))
-                        print(p_status)
-                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (+ strand)']
+                        if(len(qseq) >= 604):
+                            cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
+                            print(cutadapt_cmd)
+                            p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
+                            (cutadapt_results, err) = p.communicate()
+                            p_status = p.wait()
+                            
+                            cutadapt_output = cutadapt_results.decode("utf-8")
+                            print(cutadapt_output)
+                            print(err.decode("utf-8"))
+                            print(p_status)
+                            clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (+ strand)']
+                        elif(len(qseq) < 604):
+                            fastq_output_file = open(blastn_outfile, "w")
+                                
+                            seq_id = "_".join([qseqid, str(file_count)])
+                            description = fasta_record.description
+                                    
+                            trimmed_sequence = qseq[(qstart - 1):qend]
+                            print(trimmed_sequence)
+                            desc = " ".join([qalltitles, "length=" + str(len(trimmed_sequence)), "(+ strand)"])
+                            seq_record = SeqRecord(Seq(str(trimmed_sequence)), id=seq_id, description=desc)
+                            fastq_output_file.write(seq_record.format("fasta"))
+                                
+                            clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (+ strand)']
+                            fastq_output_file.close()
+
                     elif(target_strand == "minus"):
                         #                print(target_strand)
                         
                         qseqrc = Seq(qseq).reverse_complement()
-                        cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseqrc), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
-                        print(cutadapt_cmd)
-                        p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
-                        (cutadapt_results, err) = p.communicate()
-                        p_status = p.wait()
                         
-                        cutadapt_output = cutadapt_results.decode("utf-8")
-                        print(cutadapt_output)
-                        print(err.decode("utf-8"))
-                        print(p_status)
-                        clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (- strand)']
-
+                        if(len(qseq) >= 604):
+                            cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseqrc), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
+                            print(cutadapt_cmd)
+                            p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
+                            (cutadapt_results, err) = p.communicate()
+                            p_status = p.wait()
+                            
+                            cutadapt_output = cutadapt_results.decode("utf-8")
+                            print(cutadapt_output)
+                            print(err.decode("utf-8"))
+                            print(p_status)
+                            clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (- strand)']
+                        
+                        elif(len(qseq) < 604):
+                            fastq_output_file = open(blastn_outfile, "w")
+                            trimmed_sequence = qseqrc[(qstart - 1):qend]
+                            desc = " ".join([qalltitles, "length=" + str(len(trimmed_sequence)), "(+ strand)"])
+                            seq_record = SeqRecord(Seq(str(trimmed_sequence)), id=seq_id, description=desc)
+                            fastq_output_file.write(seq_record.format("fasta"))
+                            
+                            clean_up_metadata["_".join([qseqid, str(file_count)])] = [qalltitles] + best_hit + ['Phytoplasma sequence (- strand)']
+                            fastq_output_file.close()
                 elif(is_phytoplasma == "false"):
                     print("Not a phytoplasma sequence")
                     print(blast_hit_list)
