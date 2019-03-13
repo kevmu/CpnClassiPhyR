@@ -71,16 +71,16 @@ if not os.path.exists(output_dir):
 
 megacc = '/usr/bin/megacc';
 
-mega_align_options_infile = os.path.join(app_dir, 'db', 'clustalw_align.mao')
+mega_align_options_infile = os.path.join(app_dir, 'config', 'clustalw_align.mao')
 shutil.copy2(mega_align_options_infile, output_dir)
 
-#mega_tree_options_infile = os.path.join(app_dir, 'db', 'tree_builder_specs.mao')
+#mega_tree_options_infile = os.path.join(app_dir, 'config', 'tree_builder_specs.mao')
 
-mega_tree_options_infile = os.path.join(app_dir, 'db', 'NJ_nucleotide.mao')
+mega_tree_options_infile = os.path.join(app_dir, 'config', 'NJ_nucleotide.mao')
 shutil.copy2(mega_tree_options_infile, output_dir)
 
-#mega_tree_options_infile = os.path.join(app_dir, 'db', 'MP-MEGA.mao')
-#mega_tree_options_infile = os.path.join(app_dir, 'db', 'ML-MEGA.mao')
+#mega_tree_options_infile = os.path.join(app_dir, 'config', 'MP-MEGA.mao')
+#mega_tree_options_infile = os.path.join(app_dir, 'config', 'ML-MEGA.mao')
 
 
 
