@@ -79,20 +79,22 @@ mega_align_filename = os.path.join(output_dir,'subgroups_clustalw_align')
 
 mega_tree_filename = os.path.join(output_dir, 'subgroups_mega_tree')
 
-tree_seqsfile = os.path.join(output_dir, 'tree_seqsfile.fasta')
+subgroups_tree_outfile = os.path.join(output_dir, 'subgroups_tree_output.fasta')
 subgroups_tree_file = os.path.join(output_dir, 'subgroups_tree.fasta')
 
 sequence_ids_outfile = os.path.join(output_dir, 'sequence_ids.csv')
 f = open(sequence_ids_outfile, 'w')
 sequence_ids_output_file = csv.writer(f)
 
-f_out = open(tree_seqsfile, 'w')
+f_out = open(subgroups_tree_file, 'w')
 for fasta_record in SeqIO.parse(fasta_infile, "fasta"):
     seq_id = fasta_record.id
     description = fasta_record.description
-    fasta_record.description = seq_id
+    #fasta_record.description = seq_id
     sequence_ids_output_file.writerow([seq_id, description, "reference"])
     
+    #print(fasta_record)
+    # sys.exit()
     r = SeqIO.write(fasta_record, f_out, 'fasta')
     
     if(r != 1):
@@ -101,7 +103,7 @@ for fasta_record in SeqIO.parse(fasta_infile, "fasta"):
 for fasta_record in SeqIO.parse(outgroups_infile, "fasta"):
     seq_id = fasta_record.id
     description = fasta_record.description
-    fasta_record.description = seq_id
+    #fasta_record.description = seq_id
     sequence_ids_output_file.writerow([seq_id, description, "reference"])
     
     r = SeqIO.write(fasta_record, f_out, 'fasta')
@@ -113,7 +115,7 @@ f_out.close()
 f.close()
 
 #megacc -d phylo_phyto_tree.fasta -a clustalw_align.mao -o megacc_test.txt
-megacc_align_cmd = " ".join([megacc, "-d", tree_seqsfile, "-a", mega_align_options_infile, "-o", mega_align_filename])
+megacc_align_cmd = " ".join([megacc, "-d", subgroups_tree_file, "-a", mega_align_options_infile, "-o", mega_align_filename])
 print(megacc_align_cmd)
 p1 = Popen(megacc_align_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
 (megacc_align_results, err) = p1.communicate()
@@ -152,6 +154,16 @@ if(p1_status == 0):
     print(err.decode("utf-8"))
     print(p2_status)
 
+    f = open(sequence_ids_outfile, 'r')
+    sequence_ids_output_file = csv.reader(f)
+    sequence_header_list = {}
+    for entry in sequence_ids_output_file:
+        sequence_id = entry[0]
+        description = entry[1]
+        seq_type = entry[2]
+        sequence_header_list[sequence_id] = [description, seq_type]
+    f.close()
+
     if(p2_status == 0):
 
 
@@ -167,8 +179,8 @@ if(p1_status == 0):
         Phylo.write(best_tree, mega_tree_filename + '.nwk', 'newick')
         Phylo.write(best_tree, mega_tree_filename + '.xml', 'phyloxml')
         
-        f_out = open(subgroups_tree_file, 'w')
-        for fasta_record in SeqIO.parse(tree_seqsfile, "fasta"):
+        f_out = open(subgroups_tree_outfile, 'w')
+        for fasta_record in SeqIO.parse(subgroups_tree_file, "fasta"):
             seq_id = fasta_record.id
             fasta_record.description = sequence_header_list[seq_id][0]
             
