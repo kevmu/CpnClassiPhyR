@@ -1,0 +1,3 @@
+Strain,Best Match,Similarity Coefficient Calculation,F Value,Classification
+seq1_1,IV-IA,F = ( 2 * 12 ) / ( 20 + 21 ),0.59,Probable new subgroup in Cpn60 UT IV
+seq2_2,IV-IA,F = ( 2 * 14 ) / ( 27 + 21 ),0.58,Probable new Cpn60 UT group

@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>CpnClassiPhyR: a cpn60 universal target-based classification tool for phytoplasma</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- DataTables CSS -->
+<link href="vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+<!-- DataTables Responsive CSS -->
+<link href="vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<style>
+p {
+    line-height: 20px;
+}
+</style>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<?php
+	include 'nav_menu.php';
+?>
+
+
+<div id="page-wrapper">
+<div class="row">
+<div class="col-lg-12">
+<h1 class="page-header">Cpn60 Plasmid Clone Collection</h1>
+</div>
+
+
+
+<?php
+    echo "<div class=\"row\">";
+    echo "<div class=\"col-lg-12\">";
+?>
+<table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example" role=
+"grid" aria-describedby="dataTables-example_info">
+<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:17.25pt'>
+  <td width=945 nowrap colspan=11 valign=bottom style='width:708.9pt;
+  border-top:solid windowtext 1.0pt;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:none;mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>cpn</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>60 clone panel. Plasmid
+  DNA containing the cloned <i style='mso-bidi-font-style:normal'>cpn</i>60 UT
+  sequence from each of the samples described below is available to the
+  phytoplasma research community upon request (www.addgene.org). In all cases
+  except O2L and SF1, amplicon was generated using the phytoplasma <i
+  style='mso-bidi-font-style:normal'>cpn</i>60 UT primers described on the
+  “primer sets” tab.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:17.25pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>clone name<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>cpn60</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> UT classification<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>cpn60</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> UT GenBank accession<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>cpnDB</span></span><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'> ID<sup>1</sup><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16S classification<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16S GenBank accession<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Phytoplasma species<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>host<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>country of origin<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>literature reference<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Plasmid accession no.<sup>2</sup><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:17.25pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>O2L<sup>3</sup><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>I-IA<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939998<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27096<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrI-A<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279536<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>‘Ca. P.</span></i><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'> <span class=SpellE>asteris</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>onion<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Canada (Saskatchewan)<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123000<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:17.25pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>SF1<sup>4</sup><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>I-IB<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ940013<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27105<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrI-B<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279534<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>‘Ca. P.</span></i><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'> <span class=SpellE>asteris</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>flax<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Canada (Saskatchewan)<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier,
+  Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123001<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>BbSP</span></span><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>I-I(E/<span class=GramE>AI)AI</span><o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KU523402<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27454<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrI-E/AI<sup>5</sup><o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279523 (E); MH279522 (AI)<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>‘Ca. P.</span></i><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'> <span class=SpellE>asteris</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>blueberry<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Canada (Nova Scotia)<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Pérez-López&lt;/Author&gt;&lt;Year&gt;2016&lt;/Year&gt;&lt;RecNum&gt;1802&lt;/RecNum&gt;&lt;DisplayText&gt;(2)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1802&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1484581371&quot;&gt;1802&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Pérez-López,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel
+  Y.&lt;/author&gt;&lt;author&gt;Luna-Rodríguez, Mauricio&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  Tim
+  J.&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;&lt;style
+  face=&quot;normal&quot; font=&quot;default&quot;
+  size=&quot;100%&quot;&gt;Phytoplasma classification and phylogeny based on
+  &lt;/style&gt;&lt;style face=&quot;italic&quot; font=&quot;default&quot;
+  size=&quot;100%&quot;&gt;in silico&lt;/style&gt;&lt;style face=&quot;normal&quot;
+  font=&quot;default&quot; size=&quot;100%&quot;&gt; and
+  &lt;/style&gt;&lt;style face=&quot;italic&quot; font=&quot;default&quot;
+  size=&quot;100%&quot;&gt;in vitro&lt;/style&gt;&lt;style
+  face=&quot;normal&quot; font=&quot;default&quot; size=&quot;100%&quot;&gt;
+  RFLP analysis of &lt;/style&gt;&lt;style face=&quot;italic&quot;
+  font=&quot;default&quot;
+  size=&quot;100%&quot;&gt;cpn60&lt;/style&gt;&lt;style face=&quot;normal&quot;
+  font=&quot;default&quot; size=&quot;100%&quot;&gt; universal target
+  sequences&lt;/style&gt;&lt;/title&gt;&lt;secondary-title&gt;International
+  Journal of Systematic and Evolutionary
+  Microbiology&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;International
+  journal of systematic and evolutionary
+  microbiology&lt;/full-title&gt;&lt;abbr-1&gt;Int. J. Syst. Evol.
+  Microbiol.&lt;/abbr-1&gt;&lt;/periodical&gt;&lt;pages&gt;5600-5613&lt;/pages&gt;&lt;volume&gt;66&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;keywords&gt;&lt;keyword&gt;taxonomy&lt;/keyword&gt;&lt;keyword&gt;Phytoplasma&lt;/keyword&gt;&lt;keyword&gt;chaperonin
+  60&lt;/keyword&gt;&lt;keyword&gt;differentiation&lt;/keyword&gt;&lt;keyword&gt;Diversity&lt;/keyword&gt;&lt;/keywords&gt;&lt;dates&gt;&lt;year&gt;2016&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.001501&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1099/ijsem.0.001501&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(2)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123002<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>CVB<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>I-IF<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939995<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27145<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrI-F<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279545<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>asteris</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Italy<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123003<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>AY-col<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>I-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939994<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27144<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrI-R<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279535<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>‘Ca. </span></i><span
+  style='font-size:9.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-bidi-theme-font:minor-bidi;mso-ansi-language:
+  EN-CA'>P</span><i><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>.</span></i><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> <span
+  class=SpellE>asteris</span><o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Italy<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123004<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>R018<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>II-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279495<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA;mso-bidi-font-weight:bold'>b31187<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrII-C<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH266698<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA;mso-bidi-font-weight:bold'>‘Ca.</span></i><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;
+  mso-bidi-font-weight:bold'> P. <span class=SpellE>aurantifolia</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA;mso-bidi-font-weight:bold'>lime<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA;mso-bidi-font-weight:bold'>Iran<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;
+  mso-bidi-font-weight:bold'><span style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Muirhead&lt;/Author&gt;&lt;Year&gt;2019&lt;/Year&gt;&lt;RecNum&gt;2340&lt;/RecNum&gt;&lt;DisplayText&gt;(3)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;2340&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1550691153&quot;&gt;2340&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Book
+  Section&quot;&gt;5&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Kevin
+  Muirhead&lt;/author&gt;&lt;author&gt;Edel
+  Pérez-López&lt;/author&gt;&lt;author&gt;Brian W. Bahder&lt;/author&gt;&lt;author&gt;Janet
+  E. Hill&lt;/author&gt;&lt;author&gt;Tim Dumonceaux&lt;/author&gt;&lt;/authors&gt;&lt;secondary-authors&gt;&lt;author&gt;Olivier,
+  C.&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  T.&lt;/author&gt;&lt;author&gt;Perez-Lopez,
+  E.&lt;/author&gt;&lt;/secondary-authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;The
+  CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60
+  universal target sequences&lt;/title&gt;&lt;secondary-title&gt;Sustainable
+  management of phytoplasma diseases in crops grown in the tropical
+  belt&lt;/secondary-title&gt;&lt;/titles&gt;&lt;pages&gt;in
+  press&lt;/pages&gt;&lt;number&gt;1&lt;/number&gt;&lt;num-vols&gt;1&lt;/num-vols&gt;&lt;section&gt;2&lt;/section&gt;&lt;dates&gt;&lt;year&gt;2019&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;/urls&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA;mso-bidi-font-weight:bold'><span style='mso-no-proof:yes'>(3)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA;mso-bidi-font-weight:bold'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA;mso-bidi-font-weight:bold'>123005<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>TagTall</span></span><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>IV-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>MH922781</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>b32834</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrIV-C<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>MH922778</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>cocostanzaniae</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>coconut<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Tanzania<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Muirhead&lt;/Author&gt;&lt;Year&gt;2019&lt;/Year&gt;&lt;RecNum&gt;2340&lt;/RecNum&gt;&lt;DisplayText&gt;(3)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;2340&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1550691153&quot;&gt;2340&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Book
+  Section&quot;&gt;5&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Kevin
+  Muirhead&lt;/author&gt;&lt;author&gt;Edel
+  Pérez-López&lt;/author&gt;&lt;author&gt;Brian W. Bahder&lt;/author&gt;&lt;author&gt;Janet
+  E. Hill&lt;/author&gt;&lt;author&gt;Tim Dumonceaux&lt;/author&gt;&lt;/authors&gt;&lt;secondary-authors&gt;&lt;author&gt;Olivier,
+  C.&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  T.&lt;/author&gt;&lt;author&gt;Perez-Lopez,
+  E.&lt;/author&gt;&lt;/secondary-authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;The
+  CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60
+  universal target sequences&lt;/title&gt;&lt;secondary-title&gt;Sustainable
+  management of phytoplasma diseases in crops grown in the tropical
+  belt&lt;/secondary-title&gt;&lt;/titles&gt;&lt;pages&gt;in
+  press&lt;/pages&gt;&lt;number&gt;1&lt;/number&gt;&lt;num-vols&gt;1&lt;/num-vols&gt;&lt;section&gt;2&lt;/section&gt;&lt;dates&gt;&lt;year&gt;2019&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;/urls&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(3)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>123007<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Sab4<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>IV-IE<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>MH922782</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>b32835</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrIV-D<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>MH922779</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>palmae</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>palm<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>USA (Florida)<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Muirhead&lt;/Author&gt;&lt;Year&gt;2019&lt;/Year&gt;&lt;RecNum&gt;2340&lt;/RecNum&gt;&lt;DisplayText&gt;(3)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;2340&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1550691153&quot;&gt;2340&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Book
+  Section&quot;&gt;5&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Kevin
+  Muirhead&lt;/author&gt;&lt;author&gt;Edel
+  Pérez-López&lt;/author&gt;&lt;author&gt;Brian W. Bahder&lt;/author&gt;&lt;author&gt;Janet
+  E. Hill&lt;/author&gt;&lt;author&gt;Tim Dumonceaux&lt;/author&gt;&lt;/authors&gt;&lt;secondary-authors&gt;&lt;author&gt;Olivier,
+  C.&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  T.&lt;/author&gt;&lt;author&gt;Perez-Lopez,
+  E.&lt;/author&gt;&lt;/secondary-authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;The
+  CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60
+  universal target sequences&lt;/title&gt;&lt;secondary-title&gt;Sustainable
+  management of phytoplasma diseases in crops grown in the tropical
+  belt&lt;/secondary-title&gt;&lt;/titles&gt;&lt;pages&gt;in
+  press&lt;/pages&gt;&lt;number&gt;1&lt;/number&gt;&lt;num-vols&gt;1&lt;/num-vols&gt;&lt;section&gt;2&lt;/section&gt;&lt;dates&gt;&lt;year&gt;2019&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;/urls&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(3)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>123008<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Palm A-DR<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>IV-IE<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>MH922783</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>b32836</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrIV-E<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>MH922780</span><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>palmae</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>coconut<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Dominican Republic<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Muirhead&lt;/Author&gt;&lt;Year&gt;2019&lt;/Year&gt;&lt;RecNum&gt;2340&lt;/RecNum&gt;&lt;DisplayText&gt;(3)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;2340&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1550691153&quot;&gt;2340&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Book
+  Section&quot;&gt;5&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Kevin
+  Muirhead&lt;/author&gt;&lt;author&gt;Edel
+  Pérez-López&lt;/author&gt;&lt;author&gt;Brian W. Bahder&lt;/author&gt;&lt;author&gt;Janet
+  E. Hill&lt;/author&gt;&lt;author&gt;Tim Dumonceaux&lt;/author&gt;&lt;/authors&gt;&lt;secondary-authors&gt;&lt;author&gt;Olivier,
+  C.&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  T.&lt;/author&gt;&lt;author&gt;Perez-Lopez,
+  E.&lt;/author&gt;&lt;/secondary-authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;The
+  CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60
+  universal target sequences&lt;/title&gt;&lt;secondary-title&gt;Sustainable
+  management of phytoplasma diseases in crops grown in the tropical
+  belt&lt;/secondary-title&gt;&lt;/titles&gt;&lt;pages&gt;in
+  press&lt;/pages&gt;&lt;number&gt;1&lt;/number&gt;&lt;num-vols&gt;1&lt;/num-vols&gt;&lt;section&gt;2&lt;/section&gt;&lt;dates&gt;&lt;year&gt;2019&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;/urls&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(3)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>123009<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;height:17.25pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>FD<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>V-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939992<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27153<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrV<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>NA<sup>6</sup><o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>ulmi</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>grape<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>France<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123010<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>PGY<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>V-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939991<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27154<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrV-C<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279539<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>ulmi</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Germany<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123011<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>RS<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>V-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939990<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27155<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrV-C<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279544<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>rubi</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Germany<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123012<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14;height:17.25pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Cr<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>IX-IH<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939989<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27158<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrIX-A<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>NA<sup>7</sup><o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>phoenicium</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Cuba<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123014<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>AP<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>X-IA<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939977<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27159<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrX-A<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279542<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>mali</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>apple<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Germany<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123016<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>PYLR<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>X-IC<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ940010<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27165<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrX-C<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279541<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>pyri</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>pear<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>USA<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123017<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>ESFY<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>X-IF<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ940007<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27166<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrX-F<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279543<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>prunorum</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Italy<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123018<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18;height:15.75pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>SCWL<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>XI-ID<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279493<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA;mso-bidi-font-weight:bold'>b31184<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrXI-D<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KC295286&#8203;<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>oryzae</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Sugarcane<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>China<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Muirhead&lt;/Author&gt;&lt;Year&gt;2019&lt;/Year&gt;&lt;RecNum&gt;2340&lt;/RecNum&gt;&lt;DisplayText&gt;(3)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;2340&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1550691153&quot;&gt;2340&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Book
+  Section&quot;&gt;5&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Kevin
+  Muirhead&lt;/author&gt;&lt;author&gt;Edel
+  Pérez-López&lt;/author&gt;&lt;author&gt;Brian W. Bahder&lt;/author&gt;&lt;author&gt;Janet
+  E. Hill&lt;/author&gt;&lt;author&gt;Tim Dumonceaux&lt;/author&gt;&lt;/authors&gt;&lt;secondary-authors&gt;&lt;author&gt;Olivier,
+  C.&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  T.&lt;/author&gt;&lt;author&gt;Perez-Lopez,
+  E.&lt;/author&gt;&lt;/secondary-authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;The
+  CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60
+  universal target sequences&lt;/title&gt;&lt;secondary-title&gt;Sustainable
+  management of phytoplasma diseases in crops grown in the tropical
+  belt&lt;/secondary-title&gt;&lt;/titles&gt;&lt;pages&gt;in
+  press&lt;/pages&gt;&lt;number&gt;1&lt;/number&gt;&lt;num-vols&gt;1&lt;/num-vols&gt;&lt;section&gt;2&lt;/section&gt;&lt;dates&gt;&lt;year&gt;2019&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;/urls&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(3)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.75pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>123019<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>BN44948<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>XII-IA<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KJ939979<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27168<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrXII-A<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279537<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>solani</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Periwinkle<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Germany<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123020<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20;height:17.25pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>SbGP-1<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>XIII-(A/<span class=GramE>I)I</span><o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KT444666<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>b27178<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrXIII-A/I<sup>8</sup><o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KT444665 (A); KT444664 (I)<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>‘Ca. P.</span></i><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'> <span class=SpellE>hispanicum</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>strawberry<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Mexico (<span class=SpellE>Michoacan</span>)<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><!--[if supportFields]><span lang=FR-CA style='font-size:
+  9.0pt;line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Pérez-López&lt;/Author&gt;&lt;Year&gt;2016&lt;/Year&gt;&lt;RecNum&gt;1781&lt;/RecNum&gt;&lt;DisplayText&gt;(4)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1781&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1481736360&quot;&gt;1781&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Pérez-López,
+  Edel&lt;/author&gt;&lt;author&gt;Dumonceaux, Tim
+  J.&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Detection
+  and identification of the heterogeneous novel subgroup 16SrXIII-(A/I)I
+  phytoplasma associated with strawberry green petal disease and Mexican
+  periwinkle virescence&lt;/title&gt;&lt;secondary-title&gt;International
+  Journal of Systematic and Evolutionary Microbiology&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;International
+  journal of systematic and evolutionary
+  microbiology&lt;/full-title&gt;&lt;abbr-1&gt;Int. J. Syst. Evol.
+  Microbiol.&lt;/abbr-1&gt;&lt;/periodical&gt;&lt;pages&gt;4406-4415&lt;/pages&gt;&lt;volume&gt;66&lt;/volume&gt;&lt;number&gt;11&lt;/number&gt;&lt;keywords&gt;&lt;keyword&gt;16SrXIII&lt;/keyword&gt;&lt;keyword&gt;phytoplasma&lt;/keyword&gt;&lt;keyword&gt;strawberry&lt;/keyword&gt;&lt;keyword&gt;taxonomy&lt;/keyword&gt;&lt;keyword&gt;heterogeneity&lt;/keyword&gt;&lt;/keywords&gt;&lt;dates&gt;&lt;year&gt;2016&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.001365&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1099/ijsem.0.001365&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(4)</span></span><!--[if supportFields]><span
+  lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:FR-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:17.25pt'>
+  <p class=MsoNormal><span lang=FR-CA style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:FR-CA;mso-fareast-language:EN-CA'>123021<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21;height:15.0pt'>
+  <td width=75 nowrap valign=bottom style='width:56.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>PeruPBT</span></span><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>XV-IB<o:p></o:p></span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>MH279494<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA;mso-bidi-font-weight:bold'>b31186<o:p></o:p></span></p>
+  </td>
+  <td width=84 nowrap valign=bottom style='width:63.25pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>16SrXV-B<o:p></o:p></span></p>
+  </td>
+  <td width=94 nowrap valign=bottom style='width:70.3pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>KX810334<o:p></o:p></span></p>
+  </td>
+  <td width=126 nowrap valign=bottom style='width:94.55pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>‘Ca.</span></i><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'> P. <span class=SpellE>brasiliense</span>’<o:p></o:p></span></p>
+  </td>
+  <td width=66 nowrap valign=bottom style='width:49.8pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>papaya<o:p></o:p></span></p>
+  </td>
+  <td width=122 nowrap valign=bottom style='width:91.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>Peru<o:p></o:p></span></p>
+  </td>
+  <td width=91 nowrap valign=bottom style='width:68.1pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE <span style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE.DATA <![if gte mso 9]><xml>
+   <w:data>3C456E644E6F74653E3C436974653E3C417574686F723E5765693C2F417574686F723E3C596561723E323031373C2F596561723E3C5265634E756D3E313737303C2F5265634E756D3E3C446973706C6179546578743E28332C2035293C2F446973706C6179546578743E3C7265636F72643E3C7265632D6E756D6265723E313737303C2F7265632D6E756D6265723E3C666F726569676E2D6B6579733E3C6B6579206170703D22454E222064622D69643D22737A7765306639666C66617866336577303567707876777074657A657365397A77647235222074696D657374616D703D2231343738363139323037223E313737303C2F6B65793E3C2F666F726569676E2D6B6579733E3C7265662D74797065206E616D653D224A6F75726E616C2041727469636C65223E31373C2F7265662D747970653E3C636F6E7472696275746F72733E3C617574686F72733E3C617574686F723E5765692C20572E3C2F617574686F723E3C617574686F723E50C3A972657A2D4CC3B370657A2C20452E3C2F617574686F723E3C617574686F723E44617669732C20522E20452E3C2F617574686F723E3C617574686F723E4265726DC3BA64657A2D44C3AD617A2C204C2E3C2F617574686F723E3C617574686F723E4772616E64612D576F6E672C20432E3C2F617574686F723E3C617574686F723E57616E672C204A2E3C2F617574686F723E3C617574686F723E5A68616F2C20592E3C2F617574686F723E3C2F617574686F72733E3C2F636F6E7472696275746F72733E3C7469746C65733E3C7469746C653EE2809843616E6469646174757320506879746F706C61736D612062726173696C69656E7365E280992D72656C617465642073747261696E73206173736F6369617465642077697468207061706179612062756E63687920746F70206469736561736520696E206E6F72746865726E205065727520726570726573656E7420612064697374696E63742067656F67726170686963206C696E656167653C2F7469746C653E3C7365636F6E646172792D7469746C653E43726F702050726F74656374696F6E3C2F7365636F6E646172792D7469746C653E3C2F7469746C65733E3C706572696F646963616C3E3C66756C6C2D7469746C653E43726F702050726F74656374696F6E3C2F66756C6C2D7469746C653E3C2F706572696F646963616C3E3C70616765733E39392D3130363C2F70616765733E3C766F6C756D653E39323C2F766F6C756D653E3C6B6579776F7264733E3C6B6579776F72643E506879746F706C61736D613C2F6B6579776F72643E3C6B6579776F72643E47656E65746963206469766572736974793C2F6B6579776F72643E3C6B6579776F72643E47656F67726170686963206C696E656167653C2F6B6579776F72643E3C6B6579776F72643E53696E676C65206E75636C656F7469646520706F6C796D6F72706869736D3C2F6B6579776F72643E3C2F6B6579776F7264733E3C64617465733E3C796561723E323031373C2F796561723E3C7075622D64617465733E3C646174653E322F2F3C2F646174653E3C2F7075622D64617465733E3C2F64617465733E3C6973626E3E303236312D323139343C2F6973626E3E3C75726C733E3C72656C617465642D75726C733E3C75726C3E687474703A2F2F7777772E736369656E63656469726563742E636F6D2F736369656E63652F61727469636C652F7069692F53303236313231393431363330333039583C2F75726C3E3C2F72656C617465642D75726C733E3C2F75726C733E3C656C656374726F6E69632D7265736F757263652D6E756D3E687474703A2F2F64782E646F692E6F72672F31302E313031362F6A2E63726F70726F2E323031362E31302E3032343C2F656C656374726F6E69632D7265736F757263652D6E756D3E3C2F7265636F72643E3C2F436974653E3C436974653E3C417574686F723E4D756972686561643C2F417574686F723E3C596561723E323031393C2F596561723E3C5265634E756D3E323334303C2F5265634E756D3E3C7265636F72643E3C7265632D6E756D6265723E323334303C2F7265632D6E756D6265723E3C666F726569676E2D6B6579733E3C6B6579206170703D22454E222064622D69643D22737A7765306639666C66617866336577303567707876777074657A657365397A77647235222074696D657374616D703D2231353530363931313533223E323334303C2F6B65793E3C2F666F726569676E2D6B6579733E3C7265662D74797065206E616D653D22426F6F6B2053656374696F6E223E353C2F7265662D747970653E3C636F6E7472696275746F72733E3C617574686F72733E3C617574686F723E4B6576696E204D756972686561643C2F617574686F723E3C617574686F723E4564656C2050C3A972657A2D4CC3B370657A3C2F617574686F723E3C617574686F723E427269616E20572E204261686465723C2F617574686F723E3C617574686F723E4A616E657420452E2048696C6C3C2F617574686F723E3C617574686F723E54696D2044756D6F6E63656175783C2F617574686F723E3C2F617574686F72733E3C7365636F6E646172792D617574686F72733E3C617574686F723E4F6C69766965722C20432E3C2F617574686F723E3C617574686F723E44756D6F6E63656175782C20542E3C2F617574686F723E3C617574686F723E506572657A2D4C6F70657A2C20452E3C2F617574686F723E3C2F7365636F6E646172792D617574686F72733E3C2F636F6E7472696275746F72733E3C7469746C65733E3C7469746C653E5468652043706E436C617373695068795220666163696C69746174657320706879746F706C61736D6120636C617373696669636174696F6E20616E64207461786F6E6F6D79207573696E672063706E363020756E6976657273616C207461726765742073657175656E6365733C2F7469746C653E3C7365636F6E646172792D7469746C653E5375737461696E61626C65206D616E6167656D656E74206F6620706879746F706C61736D6120646973656173657320696E2063726F70732067726F776E20696E207468652074726F706963616C2062656C743C2F7365636F6E646172792D7469746C653E3C2F7469746C65733E3C70616765733E696E2070726573733C2F70616765733E3C6E756D6265723E313C2F6E756D6265723E3C6E756D2D766F6C733E313C2F6E756D2D766F6C733E3C73656374696F6E3E323C2F73656374696F6E3E3C64617465733E3C796561723E323031393C2F796561723E3C2F64617465733E3C75726C733E3C2F75726C733E3C2F7265636F72643E3C2F436974653E3C2F456E644E6F74653E</w:data>
+  </xml><![endif]><span style='mso-element:field-end'></span><span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(3, 5)</span><!--[if gte mso 9]><xml>
+   <w:data>3C456E644E6F74653E3C436974653E3C417574686F723E5765693C2F417574686F723E3C596561723E323031373C2F596561723E3C5265634E756D3E313737303C2F5265634E756D3E3C446973706C6179546578743E28332C2035293C2F446973706C6179546578743E3C7265636F72643E3C7265632D6E756D6265723E313737303C2F7265632D6E756D6265723E3C666F726569676E2D6B6579733E3C6B6579206170703D22454E222064622D69643D22737A7765306639666C66617866336577303567707876777074657A657365397A77647235222074696D657374616D703D2231343738363139323037223E313737303C2F6B65793E3C2F666F726569676E2D6B6579733E3C7265662D74797065206E616D653D224A6F75726E616C2041727469636C65223E31373C2F7265662D747970653E3C636F6E7472696275746F72733E3C617574686F72733E3C617574686F723E5765692C20572E3C2F617574686F723E3C617574686F723E50C3A972657A2D4CC3B370657A2C20452E3C2F617574686F723E3C617574686F723E44617669732C20522E20452E3C2F617574686F723E3C617574686F723E4265726DC3BA64657A2D44C3AD617A2C204C2E3C2F617574686F723E3C617574686F723E4772616E64612D576F6E672C20432E3C2F617574686F723E3C617574686F723E57616E672C204A2E3C2F617574686F723E3C617574686F723E5A68616F2C20592E3C2F617574686F723E3C2F617574686F72733E3C2F636F6E7472696275746F72733E3C7469746C65733E3C7469746C653EE2809843616E6469646174757320506879746F706C61736D612062726173696C69656E7365E280992D72656C617465642073747261696E73206173736F6369617465642077697468207061706179612062756E63687920746F70206469736561736520696E206E6F72746865726E205065727520726570726573656E7420612064697374696E63742067656F67726170686963206C696E656167653C2F7469746C653E3C7365636F6E646172792D7469746C653E43726F702050726F74656374696F6E3C2F7365636F6E646172792D7469746C653E3C2F7469746C65733E3C706572696F646963616C3E3C66756C6C2D7469746C653E43726F702050726F74656374696F6E3C2F66756C6C2D7469746C653E3C2F706572696F646963616C3E3C70616765733E39392D3130363C2F70616765733E3C766F6C756D653E39323C2F766F6C756D653E3C6B6579776F7264733E3C6B6579776F72643E506879746F706C61736D613C2F6B6579776F72643E3C6B6579776F72643E47656E65746963206469766572736974793C2F6B6579776F72643E3C6B6579776F72643E47656F67726170686963206C696E656167653C2F6B6579776F72643E3C6B6579776F72643E53696E676C65206E75636C656F7469646520706F6C796D6F72706869736D3C2F6B6579776F72643E3C2F6B6579776F7264733E3C64617465733E3C796561723E323031373C2F796561723E3C7075622D64617465733E3C646174653E322F2F3C2F646174653E3C2F7075622D64617465733E3C2F64617465733E3C6973626E3E303236312D323139343C2F6973626E3E3C75726C733E3C72656C617465642D75726C733E3C75726C3E687474703A2F2F7777772E736369656E63656469726563742E636F6D2F736369656E63652F61727469636C652F7069692F53303236313231393431363330333039583C2F75726C3E3C2F72656C617465642D75726C733E3C2F75726C733E3C656C656374726F6E69632D7265736F757263652D6E756D3E687474703A2F2F64782E646F692E6F72672F31302E313031362F6A2E63726F70726F2E323031362E31302E3032343C2F656C656374726F6E69632D7265736F757263652D6E756D3E3C2F7265636F72643E3C2F436974653E3C436974653E3C417574686F723E4D756972686561643C2F417574686F723E3C596561723E323031393C2F596561723E3C5265634E756D3E323334303C2F5265634E756D3E3C7265636F72643E3C7265632D6E756D6265723E323334303C2F7265632D6E756D6265723E3C666F726569676E2D6B6579733E3C6B6579206170703D22454E222064622D69643D22737A7765306639666C66617866336577303567707876777074657A657365397A77647235222074696D657374616D703D2231353530363931313533223E323334303C2F6B65793E3C2F666F726569676E2D6B6579733E3C7265662D74797065206E616D653D22426F6F6B2053656374696F6E223E353C2F7265662D747970653E3C636F6E7472696275746F72733E3C617574686F72733E3C617574686F723E4B6576696E204D756972686561643C2F617574686F723E3C617574686F723E4564656C2050C3A972657A2D4CC3B370657A3C2F617574686F723E3C617574686F723E427269616E20572E204261686465723C2F617574686F723E3C617574686F723E4A616E657420452E2048696C6C3C2F617574686F723E3C617574686F723E54696D2044756D6F6E63656175783C2F617574686F723E3C2F617574686F72733E3C7365636F6E646172792D617574686F72733E3C617574686F723E4F6C69766965722C20432E3C2F617574686F723E3C617574686F723E44756D6F6E63656175782C20542E3C2F617574686F723E3C617574686F723E506572657A2D4C6F70657A2C20452E3C2F617574686F723E3C2F7365636F6E646172792D617574686F72733E3C2F636F6E7472696275746F72733E3C7469746C65733E3C7469746C653E5468652043706E436C617373695068795220666163696C69746174657320706879746F706C61736D6120636C617373696669636174696F6E20616E64207461786F6E6F6D79207573696E672063706E363020756E6976657273616C207461726765742073657175656E6365733C2F7469746C653E3C7365636F6E646172792D7469746C653E5375737461696E61626C65206D616E6167656D656E74206F6620706879746F706C61736D6120646973656173657320696E2063726F70732067726F776E20696E207468652074726F706963616C2062656C743C2F7365636F6E646172792D7469746C653E3C2F7469746C65733E3C70616765733E696E2070726573733C2F70616765733E3C6E756D6265723E313C2F6E756D6265723E3C6E756D2D766F6C733E313C2F6E756D2D766F6C733E3C73656374696F6E3E323C2F73656374696F6E3E3C64617465733E3C796561723E323031393C2F796561723E3C2F64617465733E3C75726C733E3C2F75726C733E3C2F7265636F72643E3C2F436974653E3C2F456E644E6F74653E</w:data>
+  </xml><![endif]--></span><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;line-height:115%;font-family:
+  "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+  EN-CA;mso-fareast-language:EN-CA'>123023<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>1</span></sup><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>chaperonin database ID (http://cpndb.ca).<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>2</span></sup><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>accession number of <span class=GramE>plasmid</span> at <span
+  class=SpellE>addgene</span> (</span><span lang=EN-US style='color:windowtext'><a
+  href="http://www.addgene.org"><span lang=EN-CA style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>www.addgene.org</span></a></span><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>). Plasmids are available to the scientific community via this
+  repository.<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:24;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span lang=EN-US style='font-size:9.0pt;line-height:
+  115%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>3</span></sup><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>plasmid
+  contains the 826 bp product of <span class=SpellE>groELF</span>/H280p primers
+  </span><!--[if supportFields]><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span style='mso-element:
+  field-begin'></span><span style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Dumonceaux&lt;/Author&gt;&lt;Year&gt;2014&lt;/Year&gt;&lt;RecNum&gt;1406&lt;/RecNum&gt;&lt;DisplayText&gt;(1)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1406&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1420058607&quot;&gt;1406&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Dumonceaux,
+  Tim J.&lt;/author&gt;&lt;author&gt;Green, Margaret&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Perez,
+  Edel&lt;/author&gt;&lt;author&gt;Olivier, Chrystel&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Molecular
+  diagnostic tools for detection and differentiation of phytoplasmas based on
+  chaperonin-60 reveal differences in host plant infection
+  patterns&lt;/title&gt;&lt;secondary-title&gt;PLoS
+  ONE&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;PLoS
+  One&lt;/full-title&gt;&lt;/periodical&gt;&lt;pages&gt;e116039&lt;/pages&gt;&lt;volume&gt;9&lt;/volume&gt;&lt;number&gt;12&lt;/number&gt;&lt;dates&gt;&lt;year&gt;2014&lt;/year&gt;&lt;/dates&gt;&lt;publisher&gt;Public
+  Library of
+  Science&lt;/publisher&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://dx.plos.org/10.1371/journal.pone.0116039&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1371/journal.pone.0116039&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(1)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>. Contains <i style='mso-bidi-font-style:normal'>cpn</i>60 UT and
+  flanking <i style='mso-bidi-font-style:normal'>cpn</i>60 sequences<sup><o:p></o:p></sup></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:25;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span lang=EN-US style='font-size:9.0pt;line-height:
+  115%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>4</span></sup><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>plasmid
+  contains the 1.4 kb product of <span class=SpellE>groEL</span> F/R primers </span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE <span style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE.DATA <![if gte mso 9]><xml>
+   <w:data>3C456E644E6F74653E3C436974653E3C417574686F723E4D6974726F7669C4873C2F417574686F723E3C596561723E323031313C2F596561723E3C5265634E756D3E3638383C2F5265634E756D3E3C446973706C6179546578743E2836293C2F446973706C6179546578743E3C7265636F72643E3C7265632D6E756D6265723E3638383C2F7265632D6E756D6265723E3C666F726569676E2D6B6579733E3C6B6579206170703D22454E222064622D69643D22737A7765306639666C66617866336577303567707876777074657A657365397A77647235222074696D657374616D703D2231333130353730383839223E3638383C2F6B65793E3C2F666F726569676E2D6B6579733E3C7265662D74797065206E616D653D224A6F75726E616C2041727469636C65223E31373C2F7265662D747970653E3C636F6E7472696275746F72733E3C617574686F72733E3C617574686F723E4D6974726F7669C4872C204A2E3C2F617574686F723E3C617574686F723E4B616B697A6177612C20532E3C2F617574686F723E3C617574686F723E447564756B2C20422E3C2F617574686F723E3C617574686F723E4F7368696D612C204B2E3C2F617574686F723E3C617574686F723E4E616D62612C20532E3C2F617574686F723E3C617574686F723E42657274616363696E692C20412E3C2F617574686F723E3C2F617574686F72733E3C2F636F6E7472696275746F72733E3C617574682D616464726573733E496E73746974757465206F66205065737469636964657320616E6420456E7669726F6E6D656E74616C2050726F74656374696F6E2C2042656C67726164652031313038302C20536572626961262378443B4465706172746D656E74206F66204167726963756C747572616C20616E6420456E7669726F6E6D656E74616C2042696F6C6F67792C20556E6976657273697479206F6620546F6B796F2C20546F6B796F2C204A6170616E262378443B44695354412C20506C616E7420506174686F6C6F67792C20416C6D61204D617465722053747564696F72756D2C20556E6976657273697479206F6620426F6C6F676E612C20426F6C6F676E612C204974616C79262378443B447564756B2C20422E3B20496E73746974757465206F66205065737469636964657320616E6420456E7669726F6E6D656E74616C2050726F74656374696F6E2C2042656C67726164652031313038302C205365726269613B20656D61696C3A20626F6A616E2E647564756B4070657374696E672E6F72672E72733C2F617574682D616464726573733E3C7469746C65733E3C7469746C653E3C7374796C6520666163653D226E6F726D616C2220666F6E743D2264656661756C74222073697A653D2231303025223E546865203C2F7374796C653E3C7374796C6520666163653D226974616C69632220666F6E743D2264656661756C74222073697A653D2231303025223E67726F454C3C2F7374796C653E3C7374796C6520666163653D226E6F726D616C2220666F6E743D2264656661756C74222073697A653D2231303025223E2067656E6520617320616E206164646974696F6E616C206D61726B657220666F722066696E657220646966666572656E74696174696F6E206F66202661706F733B3C2F7374796C653E3C7374796C6520666163653D226974616C69632220666F6E743D2264656661756C74222073697A653D2231303025223E43616E64696461747573203C2F7374796C653E3C7374796C6520666163653D226E6F726D616C2220666F6E743D2264656661756C74222073697A653D2231303025223E506879746F706C61736D6120617374657269732661706F733B2D72656C617465642073747261696E733C2F7374796C653E3C2F7469746C653E3C7365636F6E646172792D7469746C653E416E6E616C73206F66204170706C6965642042696F6C6F67793C2F7365636F6E646172792D7469746C653E3C2F7469746C65733E3C706572696F646963616C3E3C66756C6C2D7469746C653E416E6E616C73206F66204170706C6965642042696F6C6F67793C2F66756C6C2D7469746C653E3C616262722D313E416E6E2E204170706C2E2042696F6C2E3C2F616262722D313E3C2F706572696F646963616C3E3C70616765733E34312D34383C2F70616765733E3C766F6C756D653E3135393C2F766F6C756D653E3C6E756D6265723E313C2F6E756D6265723E3C6B6579776F7264733E3C6B6579776F72643E3136532072444E413C2F6B6579776F72643E3C6B6579776F72643E61737465722079656C6C6F777320706879746F706C61736D61733C2F6B6579776F72643E3C6B6579776F72643E67656E65746963206D61726B65723C2F6B6579776F72643E3C6B6579776F72643E67726F454C2067656E653C2F6B6579776F72643E3C2F6B6579776F7264733E3C64617465733E3C796561723E323031313C2F796561723E3C2F64617465733E3C6973626E3E303030333437343620284953534E293C2F6973626E3E3C75726C733E3C72656C617465642D75726C733E3C75726C3E687474703A2F2F7777772E73636F7075732E636F6D2F696E776172642F7265636F72642E75726C3F6569643D322D73322E302D373939353933373532363326616D703B706172746E657249443D343026616D703B6D64353D35353633343134326634336565303066356332316431633665333637303930643C2F75726C3E3C2F72656C617465642D75726C733E3C2F75726C733E3C656C656374726F6E69632D7265736F757263652D6E756D3E31302E313131312F6A2E313734342D373334382E323031312E30303437322E783C2F656C656374726F6E69632D7265736F757263652D6E756D3E3C72656D6F74652D64617461626173652D6E616D653E53636F7075733C2F72656D6F74652D64617461626173652D6E616D653E3C6C616E67756167653E456E676C6973683C2F6C616E67756167653E3C6163636573732D646174653E3133204A756C7920323031313C2F6163636573732D646174653E3C2F7265636F72643E3C2F436974653E3C2F456E644E6F74653E</w:data>
+  </xml><![endif]><span style='mso-element:field-end'></span><span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(6)</span><!--[if gte mso 9]><xml>
+   <w:data>3C456E644E6F74653E3C436974653E3C417574686F723E4D6974726F7669C4873C2F417574686F723E3C596561723E323031313C2F596561723E3C5265634E756D3E3638383C2F5265634E756D3E3C446973706C6179546578743E2836293C2F446973706C6179546578743E3C7265636F72643E3C7265632D6E756D6265723E3638383C2F7265632D6E756D6265723E3C666F726569676E2D6B6579733E3C6B6579206170703D22454E222064622D69643D22737A7765306639666C66617866336577303567707876777074657A657365397A77647235222074696D657374616D703D2231333130353730383839223E3638383C2F6B65793E3C2F666F726569676E2D6B6579733E3C7265662D74797065206E616D653D224A6F75726E616C2041727469636C65223E31373C2F7265662D747970653E3C636F6E7472696275746F72733E3C617574686F72733E3C617574686F723E4D6974726F7669C4872C204A2E3C2F617574686F723E3C617574686F723E4B616B697A6177612C20532E3C2F617574686F723E3C617574686F723E447564756B2C20422E3C2F617574686F723E3C617574686F723E4F7368696D612C204B2E3C2F617574686F723E3C617574686F723E4E616D62612C20532E3C2F617574686F723E3C617574686F723E42657274616363696E692C20412E3C2F617574686F723E3C2F617574686F72733E3C2F636F6E7472696275746F72733E3C617574682D616464726573733E496E73746974757465206F66205065737469636964657320616E6420456E7669726F6E6D656E74616C2050726F74656374696F6E2C2042656C67726164652031313038302C20536572626961262378443B4465706172746D656E74206F66204167726963756C747572616C20616E6420456E7669726F6E6D656E74616C2042696F6C6F67792C20556E6976657273697479206F6620546F6B796F2C20546F6B796F2C204A6170616E262378443B44695354412C20506C616E7420506174686F6C6F67792C20416C6D61204D617465722053747564696F72756D2C20556E6976657273697479206F6620426F6C6F676E612C20426F6C6F676E612C204974616C79262378443B447564756B2C20422E3B20496E73746974757465206F66205065737469636964657320616E6420456E7669726F6E6D656E74616C2050726F74656374696F6E2C2042656C67726164652031313038302C205365726269613B20656D61696C3A20626F6A616E2E647564756B4070657374696E672E6F72672E72733C2F617574682D616464726573733E3C7469746C65733E3C7469746C653E3C7374796C6520666163653D226E6F726D616C2220666F6E743D2264656661756C74222073697A653D2231303025223E546865203C2F7374796C653E3C7374796C6520666163653D226974616C69632220666F6E743D2264656661756C74222073697A653D2231303025223E67726F454C3C2F7374796C653E3C7374796C6520666163653D226E6F726D616C2220666F6E743D2264656661756C74222073697A653D2231303025223E2067656E6520617320616E206164646974696F6E616C206D61726B657220666F722066696E657220646966666572656E74696174696F6E206F66202661706F733B3C2F7374796C653E3C7374796C6520666163653D226974616C69632220666F6E743D2264656661756C74222073697A653D2231303025223E43616E64696461747573203C2F7374796C653E3C7374796C6520666163653D226E6F726D616C2220666F6E743D2264656661756C74222073697A653D2231303025223E506879746F706C61736D6120617374657269732661706F733B2D72656C617465642073747261696E733C2F7374796C653E3C2F7469746C653E3C7365636F6E646172792D7469746C653E416E6E616C73206F66204170706C6965642042696F6C6F67793C2F7365636F6E646172792D7469746C653E3C2F7469746C65733E3C706572696F646963616C3E3C66756C6C2D7469746C653E416E6E616C73206F66204170706C6965642042696F6C6F67793C2F66756C6C2D7469746C653E3C616262722D313E416E6E2E204170706C2E2042696F6C2E3C2F616262722D313E3C2F706572696F646963616C3E3C70616765733E34312D34383C2F70616765733E3C766F6C756D653E3135393C2F766F6C756D653E3C6E756D6265723E313C2F6E756D6265723E3C6B6579776F7264733E3C6B6579776F72643E3136532072444E413C2F6B6579776F72643E3C6B6579776F72643E61737465722079656C6C6F777320706879746F706C61736D61733C2F6B6579776F72643E3C6B6579776F72643E67656E65746963206D61726B65723C2F6B6579776F72643E3C6B6579776F72643E67726F454C2067656E653C2F6B6579776F72643E3C2F6B6579776F7264733E3C64617465733E3C796561723E323031313C2F796561723E3C2F64617465733E3C6973626E3E303030333437343620284953534E293C2F6973626E3E3C75726C733E3C72656C617465642D75726C733E3C75726C3E687474703A2F2F7777772E73636F7075732E636F6D2F696E776172642F7265636F72642E75726C3F6569643D322D73322E302D373939353933373532363326616D703B706172746E657249443D343026616D703B6D64353D35353633343134326634336565303066356332316431633665333637303930643C2F75726C3E3C2F72656C617465642D75726C733E3C2F75726C733E3C656C656374726F6E69632D7265736F757263652D6E756D3E31302E313131312F6A2E313734342D373334382E323031312E30303437322E783C2F656C656374726F6E69632D7265736F757263652D6E756D3E3C72656D6F74652D64617461626173652D6E616D653E53636F7075733C2F72656D6F74652D64617461626173652D6E616D653E3C6C616E67756167653E456E676C6973683C2F6C616E67756167653E3C6163636573732D646174653E3133204A756C7920323031313C2F6163636573732D646174653E3C2F7265636F72643E3C2F436974653E3C2F456E644E6F74653E</w:data>
+  </xml><![endif]--></span><!--[if supportFields]><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><span
+  style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>. Contains <i style='mso-bidi-font-style:normal'>cpn</i>60 UT and
+  flanking <i style='mso-bidi-font-style:normal'>cpn</i>60 sequences<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:26;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span lang=EN-US style='font-size:9.0pt;line-height:
+  115%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>5</span></sup><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>sample
+  had F2nR2 sequence heterogeneity </span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Perez-Lopez&lt;/Author&gt;&lt;Year&gt;2018&lt;/Year&gt;&lt;RecNum&gt;2314&lt;/RecNum&gt;&lt;DisplayText&gt;(7)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;2314&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1542316166&quot;&gt;2314&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Perez-Lopez,
+  Edel&lt;/author&gt;&lt;author&gt;Vincent, Charles&lt;/author&gt;&lt;author&gt;Moreau,
+  Debra&lt;/author&gt;&lt;author&gt;Hammond,
+  Christine&lt;/author&gt;&lt;author&gt;Town, Jennifer&lt;/author&gt;&lt;author&gt;Dumonceaux,
+  Tim
+  J.&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;A
+  novel ‘Candidatus Phytoplasma asteris’ subgroup 16SrI-(E/AI)AI associated
+  with blueberry stunt disease in eastern Canada&lt;/title&gt;&lt;secondary-title&gt;International
+  Journal of Systematic and Evolutionary
+  Microbiology&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;International
+  journal of systematic and evolutionary
+  microbiology&lt;/full-title&gt;&lt;abbr-1&gt;Int. J. Syst. Evol.
+  Microbiol.&lt;/abbr-1&gt;&lt;/periodical&gt;&lt;keywords&gt;&lt;keyword&gt;taxonomy&lt;/keyword&gt;&lt;keyword&gt;16SrI&lt;/keyword&gt;&lt;keyword&gt;phytoplasma&lt;/keyword&gt;&lt;keyword&gt;Vaccinium&lt;/keyword&gt;&lt;keyword&gt;blueberry&lt;/keyword&gt;&lt;keyword&gt;heterogeneity&lt;/keyword&gt;&lt;/keywords&gt;&lt;dates&gt;&lt;year&gt;2018&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.003100.v1&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1099/ijsem.0.003100&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(7)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>. The sequence MH279522 was suggested as a new subgroup, 16SrI-AI<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:27;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span lang=EN-US style='font-size:9.0pt;line-height:
+  115%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-CA'>6</span></sup><span style='font-size:9.0pt;
+  line-height:115%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>insufficient
+  template volume remains to generate F2nR2 sequence; 16Sr group information
+  provided by S. <span class=SpellE>Malembic</span>-Maher (personal
+  communication)<sup><o:p></o:p></sup></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:28;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>7</span></sup><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>NA, not available. The 16S sequence generated from this sample was too
+  short for <span class=SpellE>iPhyclassifier</span> (714 bp), but showed 100%
+  id to GenBank KF<span class=GramE>941131 ,</span> which is 16SrIX-A.<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:29;mso-yfti-lastrow:yes;height:15.0pt'>
+  <td width=879 nowrap colspan=10 valign=bottom style='width:659.4pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'>8</span></sup><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>sample had F2nR2 sequence heterogeneity </span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-begin'></span><span
+  style='mso-spacerun:yes'> </span>ADDIN EN.CITE
+  &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Pérez-López&lt;/Author&gt;&lt;Year&gt;2016&lt;/Year&gt;&lt;RecNum&gt;1781&lt;/RecNum&gt;&lt;DisplayText&gt;(4)&lt;/DisplayText&gt;&lt;record&gt;&lt;rec-number&gt;1781&lt;/rec-number&gt;&lt;foreign-keys&gt;&lt;key
+  app=&quot;EN&quot; db-id=&quot;szwe0f9flfaxf3ew05gpxvwptezese9zwdr5&quot;
+  timestamp=&quot;1481736360&quot;&gt;1781&lt;/key&gt;&lt;/foreign-keys&gt;&lt;ref-type
+  name=&quot;Journal
+  Article&quot;&gt;17&lt;/ref-type&gt;&lt;contributors&gt;&lt;authors&gt;&lt;author&gt;Pérez-López,
+  Edel&lt;/author&gt;&lt;author&gt;Dumonceaux, Tim J.&lt;/author&gt;&lt;/authors&gt;&lt;/contributors&gt;&lt;titles&gt;&lt;title&gt;Detection
+  and identification of the heterogeneous novel subgroup 16SrXIII-(A/I)I
+  phytoplasma associated with strawberry green petal disease and Mexican
+  periwinkle virescence&lt;/title&gt;&lt;secondary-title&gt;International
+  Journal of Systematic and Evolutionary
+  Microbiology&lt;/secondary-title&gt;&lt;/titles&gt;&lt;periodical&gt;&lt;full-title&gt;International
+  journal of systematic and evolutionary
+  microbiology&lt;/full-title&gt;&lt;abbr-1&gt;Int. J. Syst. Evol.
+  Microbiol.&lt;/abbr-1&gt;&lt;/periodical&gt;&lt;pages&gt;4406-4415&lt;/pages&gt;&lt;volume&gt;66&lt;/volume&gt;&lt;number&gt;11&lt;/number&gt;&lt;keywords&gt;&lt;keyword&gt;16SrXIII&lt;/keyword&gt;&lt;keyword&gt;phytoplasma&lt;/keyword&gt;&lt;keyword&gt;strawberry&lt;/keyword&gt;&lt;keyword&gt;taxonomy&lt;/keyword&gt;&lt;keyword&gt;heterogeneity&lt;/keyword&gt;&lt;/keywords&gt;&lt;dates&gt;&lt;year&gt;2016&lt;/year&gt;&lt;/dates&gt;&lt;urls&gt;&lt;related-urls&gt;&lt;url&gt;http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.001365&lt;/url&gt;&lt;/related-urls&gt;&lt;/urls&gt;&lt;electronic-resource-num&gt;10.1099/ijsem.0.001365&lt;/electronic-resource-num&gt;&lt;/record&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+  style='mso-element:field-separator'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-no-proof:yes'>(4)</span></span><!--[if supportFields]><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'><span style='mso-element:field-end'></span></span><![endif]--><span
+  style='font-size:9.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-CA;mso-fareast-language:
+  EN-CA'>.<o:p></o:p></span></p>
+  </td>
+  <td width=66 valign=top style='width:49.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal><sup><span style='font-size:9.0pt;line-height:115%;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-CA;mso-fareast-language:EN-CA'><o:p>&nbsp;</o:p></span></sup></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><!--[if supportFields]><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>ADDIN EN.REFLIST <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US style='font-size:
+12.0pt;font-family:"Times New Roman",serif'>1.<span style='mso-tab-count:1'>         </span>Dumonceaux
+TJ, Green M, Hammond C, Perez E, Olivier C.<b style='mso-bidi-font-weight:normal'>
+</b>2014. Molecular diagnostic tools for detection and differentiation of
+phytoplasmas based on chaperonin-60 reveal differences in host plant infection
+patterns. </span><span lang=FR-CA style='font-size:12.0pt;font-family:"Times New Roman",serif;
+mso-ansi-language:FR-CA'>PLoS ONE 9:e116039.<o:p></o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+lang=FR-CA style='font-size:12.0pt;font-family:"Times New Roman",serif;
+mso-ansi-language:FR-CA'>2.<span style='mso-tab-count:1'>         </span>Pérez-López
+E, Olivier CY, Luna-Rodríguez M, Dumonceaux TJ.<b style='mso-bidi-font-weight:
+normal'> </b>2016. </span><span lang=EN-US style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>Phytoplasma classification and phylogeny based on <i
+style='mso-bidi-font-style:normal'>in silico</i> and <i style='mso-bidi-font-style:
+normal'>in vitro</i> RFLP analysis of <i style='mso-bidi-font-style:normal'>cpn60</i>
+universal target sequences. International Journal of Systematic and
+Evolutionary Microbiology 66:5600-5613.<o:p></o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>3.<span
+style='mso-tab-count:1'>         </span>Muirhead K, Pérez-López E, Bahder BW,
+Hill JE, Dumonceaux T. 2019. The CpnClassiPhyR facilitates phytoplasma
+classification and taxonomy using cpn60 universal target sequences, p in press.
+<i style='mso-bidi-font-style:normal'>In</i> Olivier C, Dumonceaux T,
+Perez-Lopez E (ed), Sustainable management of phytoplasma diseases in crops
+grown in the tropical belt.<o:p></o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+lang=FR-CA style='font-size:12.0pt;font-family:"Times New Roman",serif;
+mso-ansi-language:FR-CA'>4.<span style='mso-tab-count:1'>         </span>Pérez-López
+E, Dumonceaux TJ.<b style='mso-bidi-font-weight:normal'> </b>2016. </span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Detection
+and identification of the heterogeneous novel subgroup 16SrXIII-(A/I)I
+phytoplasma associated with strawberry green petal disease and Mexican
+periwinkle virescence. International Journal of Systematic and Evolutionary
+Microbiology 66:4406-4415.<o:p></o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>5.<span
+style='mso-tab-count:1'>         </span>Wei W, Pérez-López E, Davis RE,
+Bermúdez-Díaz L, Granda-Wong C, Wang J, Zhao Y.<b style='mso-bidi-font-weight:
+normal'> </b>2017. ‘Candidatus Phytoplasma brasiliense’-related strains
+associated with papaya bunchy top disease in northern Peru represent a distinct
+geographic lineage. Crop Protection 92:99-106.<o:p></o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>6.<span
+style='mso-tab-count:1'>         </span>Mitrovi&#263; J, Kakizawa S, Duduk B,
+Oshima K, Namba S, Bertaccini A.<b style='mso-bidi-font-weight:normal'> </b>2011.
+The <i style='mso-bidi-font-style:normal'>groEL</i> gene as an additional
+marker for finer differentiation of '<i style='mso-bidi-font-style:normal'>Candidatus
+</i>Phytoplasma asteris'-related strains. Annals of Applied Biology 159:41-48.<o:p></o:p></span></p>
+
+<p class=EndNoteBibliography style='margin-left:36.0pt;text-indent:-36.0pt'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>7.<span
+style='mso-tab-count:1'>         </span>Perez-Lopez E, Vincent C, Moreau D,
+Hammond C, Town J, Dumonceaux TJ.<b style='mso-bidi-font-weight:normal'> </b>2018.
+A novel ‘Candidatus Phytoplasma asteris’ subgroup 16SrI-(E/AI)AI associated
+with blueberry stunt disease in eastern Canada. International Journal of
+Systematic and Evolutionary Microbiology doi:10.1099/ijsem.0.003100.<o:p></o:p></span></p>
+
+<p class=MsoNormal><!--[if supportFields]><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'><span
+style='mso-element:field-end'></span></span><![endif]--><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+<?php
+
+
+    echo "</div>";
+    echo "</div>";
+    
+    ?>
+
+</div>
+<!-- /#page-wrapper -->
+
+</div>
+<!-- jQuery -->
+<script src="/vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="/vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/dist/js/sb-admin-2.js"></script>
+
+</body>
+<?php
+       include 'footer.php';
+?>
+</html>

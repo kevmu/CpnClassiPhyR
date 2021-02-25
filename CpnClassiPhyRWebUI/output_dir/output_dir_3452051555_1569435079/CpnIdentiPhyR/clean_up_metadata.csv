@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+_1,_1 ,_1,b27165 KJ940010 Candidatus Phytoplasma pyri Peach yellow leaf roll phytoplasma PYLR,100,100.000,552,0,0,1,552,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+R018-3_cpn60_T7_LW7949_9_1,R018-3_cpn60_T7_LW7949_9_1 test2.0.2,R018-3_cpn60_T7_LW7949_9_1,b31187 MH279495 Candidatus Phytoplasma aurantifolia R018,72,100.000,555,0,0,133,687,555,1,minus,0.0,1002,Phytoplasma sequence (- strand)

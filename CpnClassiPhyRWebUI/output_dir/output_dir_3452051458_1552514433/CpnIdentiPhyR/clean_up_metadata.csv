@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+KY779619.1_1,"KY779619.1_1 'Cocos nucifera' phytoplasma GroEL (groEL) gene, complete cds",KY779619.1_1,b32836 MH922783 Candidatus Phytoplasma palmae Palm-A-DR,34,96.014,552,22,0,268,819,1,552,plus,0.0,897,Phytoplasma sequence (+ strand)

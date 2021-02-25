@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+190-cpn-C1_KY704479_1,190-cpn-C1_KY704479_1 ,190-cpn-C1_KY704479_1,b27152 NZ_AMWZ00000000 Candidatus Phytoplasma sp. Peanut witches-broom phytoplasma NTU2011 PnWB,100,99.459,555,3,0,1,555,1,555,plus,0.0,987,Phytoplasma sequence (+ strand)

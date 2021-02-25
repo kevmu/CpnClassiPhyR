@@ -1,0 +1,38 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K (2018)
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (https://doi.org/10.1093/molbev/msy096)
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K (2012)
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+
+; ****************************************************************************
+;        Please see the important message(s) at the bottom of this file 
+; ****************************************************************************
+
+[General Info]
+
+	Data Type                               = unknown
+	No. of Taxa                             =        0
+	Data File                               = 
+	Settings File                           = 
+	Command Line                            = 
+
+[Analysis Statistics]
+
+	Start Time                              = 03/02/20 03:30:37 PM
+	End Time                                = 03/02/20 03:30:37 PM
+	Execution Time                          =    0.002 (seconds)
+	Peak Memory Used(Working Set)           = Not available
+
+
+; ****************************************************************************
+;                 Please note the following important messages:
+; ****************************************************************************
+;	Error: Invalid base found: 1 (in line 5)

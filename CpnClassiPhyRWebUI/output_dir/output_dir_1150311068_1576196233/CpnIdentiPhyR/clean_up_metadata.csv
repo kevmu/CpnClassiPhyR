@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+AB599712.1_1,"AB599712.1_1 Maize bushy stunt phytoplasma cpn60 gene for molecular chaperonin large subunit GroEL, complete cds, strain: MBS Colombia",AB599712.1_1,b27135 KT444673 Candidatus Phytoplasma asteris Maize bushy stunt phytoplasma MBS-Ver,34,100.000,552,0,0,271,822,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+KJ939992_Candidatus_Phytoplasma_ulmi_isolate_JB0071_1,KJ939992_Candidatus_Phytoplasma_ulmi_isolate_JB0071_1 ,KJ939992_Candidatus_Phytoplasma_ulmi_isolate_JB0071_1,b27155 KJ939990 Candidatus Phytoplasma sp. rubi Rubus stunt phytoplasma RS,100,98.188,552,10,0,1,552,1,552,plus,0.0,951,Phytoplasma sequence (+ strand)

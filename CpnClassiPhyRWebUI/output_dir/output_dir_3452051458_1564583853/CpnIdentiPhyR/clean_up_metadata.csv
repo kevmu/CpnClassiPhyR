@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+JX681023.1_1,"JX681023.1_1 Lethal wilt oil palm phytoplasma strain OP47 molecular chaperonin large subunit GroEL (cpn60) gene, partial cds",JX681023.1_1,b27135 KT444673 Candidatus Phytoplasma asteris Maize bushy stunt phytoplasma MBS-Ver,40,100.000,552,0,0,250,801,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

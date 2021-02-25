@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+test_1,test_1 ,test_1,b27183 KF383985 Candidatus Phytoplasma cynodontis Bermuda white leaf phytoplasma RS59/11,100,99.820,555,1,0,1,555,1,555,plus,0.0,996,Phytoplasma sequence (+ strand)

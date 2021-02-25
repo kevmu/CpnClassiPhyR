@@ -1,0 +1,53 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K (2018)
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (https://doi.org/10.1093/molbev/msy096)
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K (2012)
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =       33
+	No. of Sites                            =      547
+	Data File                               = '/var/www/CpnClassiPhyRWebUI/output_dir/output_dir_3452051555_1569367474/phylogenetics/all-trimmed-sense_clustalw_align.meg'
+	Settings File                           = '/var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/config/NJ_nucleotide.mao'
+	Command Line                            = /usr/lib/megax/megacc -d /var/www/CpnClassiPhyRWebUI/output_dir/output_dir_3452051555_1569367474/phylogenetics/all-trimmed-sense_clustalw_align.meg -a /var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/config/NJ_nucleotide.mao -o /var/www/CpnClassiPhyRWebUI/output_dir/output_dir_3452051555_1569367474/phylogenetics/all-trimmed-sense_mega_tree
+
+[Analysis Settings]
+
+	Analysis                                = Phylogeny Reconstruction
+	Scope                                   = All Selected Taxa
+	Statistical Method                      = Neighbor-joining
+	Phylogeny Test                          = Not Applicable
+	Test of Phylogeny                       = Bootstrap method
+	No. of Bootstrap Replications           = 1000
+	Substitutions Type                      = Nucleotide
+	Model/Method                            = Tamura-Nei model
+	Substitutions to Include                = d: Transitions + Transversions
+	Rates among Sites                       = Uniform Rates
+	Gamma Parameter                         = Not Applicable
+	Pattern among Lineages                  = Same (Homogeneous)
+	Gaps/Missing Data Treatment             = Complete deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = False
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+
+[Analysis Statistics]
+
+	Start Time                              = 09/24/19 11:24:54 PM
+	End Time                                = 09/24/19 11:25:05 PM
+	Execution Time                          =   10.538 (seconds)
+	Peak Memory Used(Working Set)           = Not available
+	Sum of branch lengths                   =    2.456

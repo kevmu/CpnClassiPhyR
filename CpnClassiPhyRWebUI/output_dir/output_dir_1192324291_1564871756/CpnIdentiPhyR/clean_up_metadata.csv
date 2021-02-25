@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+2_1,2_1 ,2_1,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,96,99.438,534,1,2,1,532,534,1,minus,0.0,944,Phytoplasma sequence (- strand)

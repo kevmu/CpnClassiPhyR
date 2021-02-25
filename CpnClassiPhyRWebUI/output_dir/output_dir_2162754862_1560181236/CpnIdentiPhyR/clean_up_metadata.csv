@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+Contig1_1,Contig1_1 ,Contig1_1,b27156 KJ939978 Candidatus Phytoplasma fraxini Ash yellows phytoplasma AshY,12,74.648,71,18,0,279,349,241,311,plus,2.99e-08,48.2,Not a Phytoplasma sequence

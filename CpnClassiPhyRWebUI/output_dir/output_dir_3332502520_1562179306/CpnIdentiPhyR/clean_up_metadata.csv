@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+test_1,test_1 ,test_1,b32836 MH922783 Candidatus Phytoplasma palmae Palm-A-DR,34,99.094,552,5,0,268,819,1,552,plus,0.0,973,Phytoplasma sequence (+ strand)

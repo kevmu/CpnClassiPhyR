@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+b109_1,b109_1 U13618 Staphylococcus epidermidis 9759,b109_1,b31186 MH279494 Candidatus Phytoplasma brasiliense PeruPBT,6,70.526,95,28,0,487,581,220,314,plus,2.82e-07,46.4,Not a Phytoplasma sequence

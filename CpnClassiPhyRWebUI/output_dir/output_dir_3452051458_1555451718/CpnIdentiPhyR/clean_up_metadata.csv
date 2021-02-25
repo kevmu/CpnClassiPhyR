@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+MIEP01000003.1_1,"MIEP01000003.1_1 Rice orange leaf phytoplasma strain LD1 contig3, whole genome shotgun sequence",MIEP01000003.1_1,b27135 KT444673 Candidatus Phytoplasma asteris Maize bushy stunt phytoplasma MBS-Ver,28,100.000,552,0,0,859,1410,552,1,minus,0.0,996,Phytoplasma sequence (- strand)

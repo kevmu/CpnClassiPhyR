@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+NC_011047.1_1,NC_011047.1_1 ,NC_011047.1_1,b27159 KJ939977 Candidatus Phytoplasma mali Apple proliferation phytoplasma AP,34,100.000,552,0,0,271,822,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

@@ -1,0 +1,2 @@
+Strain,Best Match,Similarity Coefficient Calculation,F Value,Classification
+test_1,I-IIB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-IIB

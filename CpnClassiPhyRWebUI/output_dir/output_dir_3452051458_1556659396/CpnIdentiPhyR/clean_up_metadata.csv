@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+1220_S1_L001_R1_001_(paired)_trimmed_(paired)_sampled_contig_4781_1,1220_S1_L001_R1_001_(paired)_trimmed_(paired)_sampled_contig_4781_1 ,1220_S1_L001_R1_001_(paired)_trimmed_(paired)_sampled_contig_4781_1,b27155 KJ939990 Candidatus Phytoplasma sp. rubi Rubus stunt phytoplasma RS,20,65.957,282,96,0,991,1272,1,282,plus,1.48e-16,77.0,Not a Phytoplasma sequence

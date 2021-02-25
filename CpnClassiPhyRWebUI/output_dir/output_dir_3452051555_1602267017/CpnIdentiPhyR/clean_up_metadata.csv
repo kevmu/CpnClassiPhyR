@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+Bb-cpn-C1_SP6_KK3001_52_1,Bb-cpn-C1_SP6_KK3001_52_1 NS1-P4L-clone1.0.2,Bb-cpn-C1_SP6_KK3001_52_1,b27144 KJ939994 Candidatus Phytoplasma asteris Aster yellows phytoplasma AY-Col,100,99.275,552,4,0,1,552,1,552,plus,0.0,978,Phytoplasma sequence (+ strand)

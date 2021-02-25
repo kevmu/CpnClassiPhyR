@@ -1,0 +1,730 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+PFFEJNAA_00441_441,PFFEJNAA_00441_441 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00387_387,PFFEJNAA_00387_387 Ribonuclease P protein component,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00067_67,PFFEJNAA_00067_67 50S ribosomal protein L21,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00144_144,PFFEJNAA_00144_144 Lipoate-protein ligase LplJ,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00312_312,PFFEJNAA_00312_312 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00427_427,PFFEJNAA_00427_427 Fructose-bisphosphate aldolase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00332_332,PFFEJNAA_00332_332 Serine hydroxymethyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00383_383,PFFEJNAA_00383_383 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00640_640,PFFEJNAA_00640_640 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00174_174,PFFEJNAA_00174_174 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00125_125,PFFEJNAA_00125_125 Ribosomal RNA small subunit methyltransferase I,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00533_533,PFFEJNAA_00533_533 GTP pyrophosphokinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00294_294,PFFEJNAA_00294_294 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00371_371,PFFEJNAA_00371_371 DEAD-box ATP-dependent RNA helicase CshB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00318_318,PFFEJNAA_00318_318 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00355_355,PFFEJNAA_00355_355 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00605_605,PFFEJNAA_00605_605 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00128_128,PFFEJNAA_00128_128 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00378_378,PFFEJNAA_00378_378 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00159_159,PFFEJNAA_00159_159 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00394_394,PFFEJNAA_00394_394 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00080_80,PFFEJNAA_00080_80 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00365_365,PFFEJNAA_00365_365 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00723_723,PFFEJNAA_00723_723 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00093_93,PFFEJNAA_00093_93 50S ribosomal protein L23,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00550_550,PFFEJNAA_00550_550 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00696_696,PFFEJNAA_00696_696 putative ABC transporter ATP-binding protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00336_336,PFFEJNAA_00336_336 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00014_14,PFFEJNAA_00014_14 Phenylalanine--tRNA ligase beta subunit,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00643_643,PFFEJNAA_00643_643 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00682_682,PFFEJNAA_00682_682 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00227_227,PFFEJNAA_00227_227 Error-prone DNA polymerase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00202_202,PFFEJNAA_00202_202 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00602_602,PFFEJNAA_00602_602 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00429_429,PFFEJNAA_00429_429 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00071_71,PFFEJNAA_00071_71 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00520_520,PFFEJNAA_00520_520 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00534_534,PFFEJNAA_00534_534 RNA polymerase sigma factor RpoD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00707_707,PFFEJNAA_00707_707 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00586_586,PFFEJNAA_00586_586 30S ribosomal protein S15,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00541_541,PFFEJNAA_00541_541 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00083_83,PFFEJNAA_00083_83 Diadenylate cyclase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00658_658,PFFEJNAA_00658_658 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00048_48,PFFEJNAA_00048_48 Elongation factor G,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00130_130,PFFEJNAA_00130_130 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00726_726,PFFEJNAA_00726_726 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00274_274,PFFEJNAA_00274_274 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00622_622,PFFEJNAA_00622_622 Proline--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00432_432,PFFEJNAA_00432_432 Glucose-6-phosphate isomerase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00636_636,PFFEJNAA_00636_636 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00154_154,PFFEJNAA_00154_154 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00015_15,PFFEJNAA_00015_15 Phenylalanine--tRNA ligase alpha subunit,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00664_664,PFFEJNAA_00664_664 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00595_595,PFFEJNAA_00595_595 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00347_347,PFFEJNAA_00347_347 30S ribosomal protein S6,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00588_588,PFFEJNAA_00588_588 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00423_423,PFFEJNAA_00423_423 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00004_4,PFFEJNAA_00004_4 Glutathione transport system permease protein GsiD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00724_724,PFFEJNAA_00724_724 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00235_235,PFFEJNAA_00235_235 DNA polymerase I,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00275_275,PFFEJNAA_00275_275 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00245_245,PFFEJNAA_00245_245 tRNA threonylcarbamoyladenosine biosynthesis protein TsaB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00006_6,PFFEJNAA_00006_6 Oligopeptide transport ATP-binding protein OppD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00373_373,PFFEJNAA_00373_373 Transcription antitermination protein NusB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00330_330,PFFEJNAA_00330_330 Thymidine kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00369_369,PFFEJNAA_00369_369 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00315_315,PFFEJNAA_00315_315 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00538_538,PFFEJNAA_00538_538 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00547_547,PFFEJNAA_00547_547 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00151_151,PFFEJNAA_00151_151 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00657_657,PFFEJNAA_00657_657 Exodeoxyribonuclease 7 large subunit,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00017_17,PFFEJNAA_00017_17 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00191_191,PFFEJNAA_00191_191 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00296_296,PFFEJNAA_00296_296 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00709_709,PFFEJNAA_00709_709 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00077_77,PFFEJNAA_00077_77 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00084_84,PFFEJNAA_00084_84 DegV domain-containing protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00065_65,PFFEJNAA_00065_65 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00176_176,PFFEJNAA_00176_176 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00674_674,PFFEJNAA_00674_674 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00242_242,PFFEJNAA_00242_242 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00040_40,PFFEJNAA_00040_40 50S ribosomal protein L11,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00663_663,PFFEJNAA_00663_663 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00261_261,PFFEJNAA_00261_261 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00329_329,PFFEJNAA_00329_329 tRNA-specific adenosine deaminase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00364_364,PFFEJNAA_00364_364 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00063_63,PFFEJNAA_00063_63 Tyrosine recombinase XerC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00212_212,PFFEJNAA_00212_212 Cytidylate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00678_678,PFFEJNAA_00678_678 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00677_677,PFFEJNAA_00677_677 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00305_305,PFFEJNAA_00305_305 Exodeoxyribonuclease 7 large subunit,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00194_194,PFFEJNAA_00194_194 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00028_28,PFFEJNAA_00028_28 tRNA-Arg(acg),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00126_126,PFFEJNAA_00126_126 Methionine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00334_334,PFFEJNAA_00334_334 Chromosomal replication initiator protein DnaA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00599_599,PFFEJNAA_00599_599 Ribosomal large subunit pseudouridine synthase B,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00563_563,PFFEJNAA_00563_563 Large-conductance mechanosensitive channel,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00195_195,PFFEJNAA_00195_195 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00096_96,PFFEJNAA_00096_96 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00273_273,PFFEJNAA_00273_273 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00452_452,PFFEJNAA_00452_452 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00629_629,PFFEJNAA_00629_629 Primosomal protein N',N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00409_409,PFFEJNAA_00409_409 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00327_327,PFFEJNAA_00327_327 tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00058_58,PFFEJNAA_00058_58 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00594_594,PFFEJNAA_00594_594 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00471_471,PFFEJNAA_00471_471 tRNA-Met(cat),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00263_263,PFFEJNAA_00263_263 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00156_156,PFFEJNAA_00156_156 Uridine kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00706_706,PFFEJNAA_00706_706 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00561_561,PFFEJNAA_00561_561 putative Hsp20 family chaperone,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00133_133,PFFEJNAA_00133_133 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00540_540,PFFEJNAA_00540_540 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00581_581,PFFEJNAA_00581_581 Putrescine export system ATP-binding protein SapF,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00529_529,PFFEJNAA_00529_529 Zinc-dependent sulfurtransferase SufU,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00177_177,PFFEJNAA_00177_177 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00225_225,PFFEJNAA_00225_225 Lysine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00542_542,PFFEJNAA_00542_542 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00138_138,PFFEJNAA_00138_138 Formamidopyrimidine-DNA glycosylase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00032_32,PFFEJNAA_00032_32 30S ribosomal protein S9,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00673_673,PFFEJNAA_00673_673 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00182_182,PFFEJNAA_00182_182 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00345_345,PFFEJNAA_00345_345 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00205_205,PFFEJNAA_00205_205 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00326_326,PFFEJNAA_00326_326 Ribosomal RNA small subunit methyltransferase G,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00285_285,PFFEJNAA_00285_285 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00573_573,PFFEJNAA_00573_573 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00180_180,PFFEJNAA_00180_180 Glutathione transport system permease protein GsiD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00653_653,PFFEJNAA_00653_653 Threonine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00167_167,PFFEJNAA_00167_167 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00035_35,PFFEJNAA_00035_35 Calcium-transporting ATPase CtpE,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00623_623,PFFEJNAA_00623_623 S-adenosylmethionine synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00506_506,PFFEJNAA_00506_506 30S ribosomal protein S21,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00115_115,PFFEJNAA_00115_115 30S ribosomal protein S13,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00272_272,PFFEJNAA_00272_272 Cytosol aminopeptidase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00333_333,PFFEJNAA_00333_333 Beta sliding clamp,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00353_353,PFFEJNAA_00353_353 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00267_267,PFFEJNAA_00267_267 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00258_258,PFFEJNAA_00258_258 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00539_539,PFFEJNAA_00539_539 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00341_341,PFFEJNAA_00341_341 Tyrosine recombinase XerD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00072_72,PFFEJNAA_00072_72 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00018_18,PFFEJNAA_00018_18 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00060_60,PFFEJNAA_00060_60 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00335_335,PFFEJNAA_00335_335 Ribonucleoside-diphosphate reductase subunit alpha,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00725_725,PFFEJNAA_00725_725 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00384_384,PFFEJNAA_00384_384 IS3 family transposase ISStin5,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00527_527,PFFEJNAA_00527_527 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00053_53,PFFEJNAA_00053_53 Release factor glutamine methyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00292_292,PFFEJNAA_00292_292 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00357_357,PFFEJNAA_00357_357 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00479_479,PFFEJNAA_00479_479 SsrA-binding protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00349_349,PFFEJNAA_00349_349 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00411_411,PFFEJNAA_00411_411 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00412_412,PFFEJNAA_00412_412 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00717_717,PFFEJNAA_00717_717 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00704_704,PFFEJNAA_00704_704 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00703_703,PFFEJNAA_00703_703 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00523_523,PFFEJNAA_00523_523 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00106_106,PFFEJNAA_00106_106 50S ribosomal protein L6,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00283_283,PFFEJNAA_00283_283 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00713_713,PFFEJNAA_00713_713 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00443_443,PFFEJNAA_00443_443 tRNA-Ser(gct),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00509_509,PFFEJNAA_00509_509 GTPase Era,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00079_79,PFFEJNAA_00079_79 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00009_9,PFFEJNAA_00009_9 Inner membrane ABC transporter permease protein YdcV,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00094_94,PFFEJNAA_00094_94 50S ribosomal protein L2,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00374_374,PFFEJNAA_00374_374 Superoxide dismutase [Mn],N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00587_587,PFFEJNAA_00587_587 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00435_435,PFFEJNAA_00435_435 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00567_567,PFFEJNAA_00567_567 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00518_518,PFFEJNAA_00518_518 tRNA 5-hydroxyuridine methyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00649_649,PFFEJNAA_00649_649 L-arabinose transport system permease protein AraQ,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00331_331,PFFEJNAA_00331_331 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00314_314,PFFEJNAA_00314_314 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00348_348,PFFEJNAA_00348_348 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00295_295,PFFEJNAA_00295_295 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00134_134,PFFEJNAA_00134_134 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00477_477,PFFEJNAA_00477_477 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00676_676,PFFEJNAA_00676_676 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00480_480,PFFEJNAA_00480_480 DNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00405_405,PFFEJNAA_00405_405 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00370_370,PFFEJNAA_00370_370 putative endonuclease 4,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00183_183,PFFEJNAA_00183_183 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00386_386,PFFEJNAA_00386_386 Membrane protein insertase YidC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00600_600,PFFEJNAA_00600_600 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00260_260,PFFEJNAA_00260_260 Protein translocase subunit SecA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00430_430,PFFEJNAA_00430_430 Phosphoglycerate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00011_11,PFFEJNAA_00011_11 Vitamin B12 import ATP-binding protein BtuD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00589_589,PFFEJNAA_00589_589 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00112_112,PFFEJNAA_00112_112 Methionine aminopeptidase 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00516_516,PFFEJNAA_00516_516 Alanine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00136_136,PFFEJNAA_00136_136 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00519_519,PFFEJNAA_00519_519 Transcription elongation factor GreA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00308_308,PFFEJNAA_00308_308 Manganese transport system membrane protein MntC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00099_99,PFFEJNAA_00099_99 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00007_7,PFFEJNAA_00007_7 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00503_503,PFFEJNAA_00503_503 Trigger factor,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00447_447,PFFEJNAA_00447_447 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00556_556,PFFEJNAA_00556_556 Ribonucleoside-diphosphate reductase subunit beta,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00498_498,PFFEJNAA_00498_498 tRNA-Ser(gga),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00319_319,PFFEJNAA_00319_319 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00667_667,PFFEJNAA_00667_667 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00475_475,PFFEJNAA_00475_475 tRNA-Asp(gtc),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00481_481,PFFEJNAA_00481_481 Holo-[acyl-carrier-protein] synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00721_721,PFFEJNAA_00721_721 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00659_659,PFFEJNAA_00659_659 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00173_173,PFFEJNAA_00173_173 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00259_259,PFFEJNAA_00259_259 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00132_132,PFFEJNAA_00132_132 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00304_304,PFFEJNAA_00304_304 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00158_158,PFFEJNAA_00158_158 Metalloprotease TldD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00410_410,PFFEJNAA_00410_410 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00488_488,PFFEJNAA_00488_488 DegV domain-containing protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00470_470,PFFEJNAA_00470_470 tRNA-Ala(tgc),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00197_197,PFFEJNAA_00197_197 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00250_250,PFFEJNAA_00250_250 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00698_698,PFFEJNAA_00698_698 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00474_474,PFFEJNAA_00474_474 tRNA-Met(cat),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00487_487,PFFEJNAA_00487_487 RNA polymerase sigma factor RpoD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00574_574,PFFEJNAA_00574_574 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00073_73,PFFEJNAA_00073_73 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00186_186,PFFEJNAA_00186_186 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00221_221,PFFEJNAA_00221_221 Glutathione transport system permease protein GsiC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00655_655,PFFEJNAA_00655_655 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00320_320,PFFEJNAA_00320_320 Zinc-transporting ATPase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00685_685,PFFEJNAA_00685_685 Holliday junction ATP-dependent DNA helicase RuvB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00216_216,PFFEJNAA_00216_216 50S ribosomal protein L33 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00113_113,PFFEJNAA_00113_113 Translation initiation factor IF-1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00137_137,PFFEJNAA_00137_137 Replication initiation and membrane attachment protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00075_75,PFFEJNAA_00075_75 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00001_1,PFFEJNAA_00001_1 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00583_583,PFFEJNAA_00583_583 Oligopeptide transport ATP-binding protein OppD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00389_389,PFFEJNAA_00389_389 Putative aminopeptidase YsdC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00630_630,PFFEJNAA_00630_630 Ribosome-binding factor A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00214_214,PFFEJNAA_00214_214 DNA-binding protein HU,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00351_351,PFFEJNAA_00351_351 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00675_675,PFFEJNAA_00675_675 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00642_642,PFFEJNAA_00642_642 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00571_571,PFFEJNAA_00571_571 Vitamin B12 import ATP-binding protein BtuD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00052_52,PFFEJNAA_00052_52 Type I restriction enzyme EcoKI M protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00691_691,PFFEJNAA_00691_691 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00652_652,PFFEJNAA_00652_652 tRNA modification GTPase MnmE,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00530_530,PFFEJNAA_00530_530 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00271_271,PFFEJNAA_00271_271 NAD-dependent malic enzyme,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00577_577,PFFEJNAA_00577_577 DNA primase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00633_633,PFFEJNAA_00633_633 Transcription termination/antitermination protein NusA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00338_338,PFFEJNAA_00338_338 Tryptophan--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00189_189,PFFEJNAA_00189_189 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00074_74,PFFEJNAA_00074_74 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00114_114,PFFEJNAA_00114_114 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00054_54,PFFEJNAA_00054_54 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00281_281,PFFEJNAA_00281_281 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00228_228,PFFEJNAA_00228_228 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00431_431,PFFEJNAA_00431_431 Glyceraldehyde-3-phosphate dehydrogenase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00337_337,PFFEJNAA_00337_337 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00672_672,PFFEJNAA_00672_672 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00070_70,PFFEJNAA_00070_70 Adenylate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00647_647,PFFEJNAA_00647_647 Diacetylchitobiose uptake system ATP-binding protein MsiK,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00257_257,PFFEJNAA_00257_257 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00142_142,PFFEJNAA_00142_142 Holliday junction resolvase RecU,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00528_528,PFFEJNAA_00528_528 Cysteine desulfurase SufS,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00611_611,PFFEJNAA_00611_611 Pyruvate dehydrogenase E1 component subunit beta,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00149_149,PFFEJNAA_00149_149 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00264_264,PFFEJNAA_00264_264 Single-stranded DNA-binding protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00278_278,PFFEJNAA_00278_278 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00354_354,PFFEJNAA_00354_354 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00403_403,PFFEJNAA_00403_403 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00568_568,PFFEJNAA_00568_568 Sucrose phosphorylase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00232_232,PFFEJNAA_00232_232 DNA topoisomerase 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00139_139,PFFEJNAA_00139_139 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00408_408,PFFEJNAA_00408_408 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00461_461,PFFEJNAA_00461_461 16S ribosomal RNA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00390_390,PFFEJNAA_00390_390 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00705_705,PFFEJNAA_00705_705 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00253_253,PFFEJNAA_00253_253 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00598_598,PFFEJNAA_00598_598 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00536_536,PFFEJNAA_00536_536 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00612_612,PFFEJNAA_00612_612 Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00247_247,PFFEJNAA_00247_247 DNA gyrase subunit A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00656_656,PFFEJNAA_00656_656 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00395_395,PFFEJNAA_00395_395 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00025_25,PFFEJNAA_00025_25 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00145_145,PFFEJNAA_00145_145 Chaperone protein DnaJ,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00238_238,PFFEJNAA_00238_238 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00026_26,PFFEJNAA_00026_26 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00729_729,PFFEJNAA_00729_729 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00162_162,PFFEJNAA_00162_162 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00566_566,PFFEJNAA_00566_566 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00469_469,PFFEJNAA_00469_469 tRNA-Leu(taa),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00108_108,PFFEJNAA_00108_108 30S ribosomal protein S5,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00091_91,PFFEJNAA_00091_91 50S ribosomal protein L3,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00342_342,PFFEJNAA_00342_342 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00219_219,PFFEJNAA_00219_219 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00088_88,PFFEJNAA_00088_88 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00428_428,PFFEJNAA_00428_428 ATP-dependent 6-phosphofructokinase isozyme 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00670_670,PFFEJNAA_00670_670 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00413_413,PFFEJNAA_00413_413 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00654_654,PFFEJNAA_00654_654 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00215_215,PFFEJNAA_00215_215 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00284_284,PFFEJNAA_00284_284 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00116_116,PFFEJNAA_00116_116 30S ribosomal protein S11,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00462_462,PFFEJNAA_00462_462 23S ribosomal RNA (partial),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00608_608,"PFFEJNAA_00608_608 2,3-bisphosphoglycerate-independent phosphoglycerate mutase",N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00456_456,PFFEJNAA_00456_456 putative GTP-binding protein EngB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00309_309,PFFEJNAA_00309_309 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00171_171,PFFEJNAA_00171_171 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00406_406,PFFEJNAA_00406_406 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00617_617,PFFEJNAA_00617_617 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00291_291,PFFEJNAA_00291_291 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00188_188,PFFEJNAA_00188_188 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00684_684,PFFEJNAA_00684_684 Arginine transport ATP-binding protein ArtM,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00701_701,PFFEJNAA_00701_701 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00290_290,PFFEJNAA_00290_290 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00251_251,PFFEJNAA_00251_251 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00303_303,PFFEJNAA_00303_303 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00505_505,PFFEJNAA_00505_505 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00514_514,PFFEJNAA_00514_514 tRNA-Arg(tct),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00546_546,PFFEJNAA_00546_546 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00362_362,PFFEJNAA_00362_362 Protein hit,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00288_288,PFFEJNAA_00288_288 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00407_407,PFFEJNAA_00407_407 Thymidylate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00129_129,PFFEJNAA_00129_129 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00645_645,PFFEJNAA_00645_645 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00415_415,PFFEJNAA_00415_415 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00192_192,PFFEJNAA_00192_192 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00240_240,PFFEJNAA_00240_240 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00107_107,PFFEJNAA_00107_107 50S ribosomal protein L18,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00181_181,PFFEJNAA_00181_181 Glutathione transport system permease protein GsiC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00607_607,PFFEJNAA_00607_607 Enolase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00306_306,PFFEJNAA_00306_306 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00625_625,PFFEJNAA_00625_625 tRNA-Thr(ggt),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00127_127,PFFEJNAA_00127_127 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00256_256,PFFEJNAA_00256_256 RNA polymerase sigma factor FliA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00343_343,PFFEJNAA_00343_343 Putative threonylcarbamoyl-AMP synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00508_508,PFFEJNAA_00508_508 Endoribonuclease YbeY,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00648_648,PFFEJNAA_00648_648 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00019_19,PFFEJNAA_00019_19 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00490_490,PFFEJNAA_00490_490 3'-5' exoribonuclease YhaM,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00457_457,PFFEJNAA_00457_457 Valine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00426_426,PFFEJNAA_00426_426 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00282_282,PFFEJNAA_00282_282 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00560_560,PFFEJNAA_00560_560 tRNA-His(gtg),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00175_175,PFFEJNAA_00175_175 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00445_445,PFFEJNAA_00445_445 Holliday junction ATP-dependent DNA helicase RuvB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00211_211,PFFEJNAA_00211_211 Elongation factor P,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00552_552,PFFEJNAA_00552_552 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00359_359,PFFEJNAA_00359_359 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00153_153,PFFEJNAA_00153_153 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00375_375,PFFEJNAA_00375_375 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00095_95,PFFEJNAA_00095_95 30S ribosomal protein S19,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00558_558,PFFEJNAA_00558_558 tRNA-Leu(tag),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00402_402,PFFEJNAA_00402_402 Chromosome partition protein Smc,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00497_497,PFFEJNAA_00497_497 Acetate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00344_344,PFFEJNAA_00344_344 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00061_61,PFFEJNAA_00061_61 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00397_397,PFFEJNAA_00397_397 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00388_388,PFFEJNAA_00388_388 50S ribosomal protein L34,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00368_368,PFFEJNAA_00368_368 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00722_722,PFFEJNAA_00722_722 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00066_66,PFFEJNAA_00066_66 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00495_495,PFFEJNAA_00495_495 Protein/nucleic acid deglycase 3,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00382_382,PFFEJNAA_00382_382 Chromosome partition protein Smc,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00700_700,PFFEJNAA_00700_700 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00455_455,PFFEJNAA_00455_455 ATP-dependent DNA helicase RecG,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00220_220,PFFEJNAA_00220_220 Glutathione transport system permease protein GsiC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00050_50,PFFEJNAA_00050_50 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00101_101,PFFEJNAA_00101_101 50S ribosomal protein L14,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00062_62,PFFEJNAA_00062_62 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00562_562,PFFEJNAA_00562_562 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00578_578,PFFEJNAA_00578_578 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00236_236,PFFEJNAA_00236_236 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00064_64,PFFEJNAA_00064_64 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00016_16,PFFEJNAA_00016_16 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00618_618,PFFEJNAA_00618_618 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00420_420,PFFEJNAA_00420_420 UvrABC system protein C,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00624_624,PFFEJNAA_00624_624 Cold shock protein CspA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00031_31,PFFEJNAA_00031_31 50S ribosomal protein L13,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00613_613,PFFEJNAA_00613_613 D-aminoacyl-tRNA deacylase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00023_23,PFFEJNAA_00023_23 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00401_401,PFFEJNAA_00401_401 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00078_78,PFFEJNAA_00078_78 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00276_276,PFFEJNAA_00276_276 DNA-binding protein HU,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00217_217,PFFEJNAA_00217_217 Xaa-Pro aminopeptidase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00436_436,PFFEJNAA_00436_436 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00377_377,PFFEJNAA_00377_377 IS3 family transposase ISStin5,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00380_380,PFFEJNAA_00380_380 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00399_399,PFFEJNAA_00399_399 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00683_683,PFFEJNAA_00683_683 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00042_42,PFFEJNAA_00042_42 50S ribosomal protein L10,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00524_524,PFFEJNAA_00524_524 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00120_120,PFFEJNAA_00120_120 Energy-coupling factor transporter ATP-binding protein EcfA2,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00008_8,PFFEJNAA_00008_8 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00476_476,PFFEJNAA_00476_476 tRNA-Phe(gaa),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00697_697,PFFEJNAA_00697_697 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00564_564,PFFEJNAA_00564_564 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00300_300,PFFEJNAA_00300_300 Putative NAD(P)H nitroreductase YodC,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00367_367,PFFEJNAA_00367_367 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00511_511,PFFEJNAA_00511_511 DNA primase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00199_199,PFFEJNAA_00199_199 ATP-dependent DNA helicase PcrA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00711_711,PFFEJNAA_00711_711 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00442_442,PFFEJNAA_00442_442 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00293_293,PFFEJNAA_00293_293 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00421_421,PFFEJNAA_00421_421 UvrABC system protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00068_68,PFFEJNAA_00068_68 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00030_30,PFFEJNAA_00030_30 tRNA-Gly(tcc),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00039_39,PFFEJNAA_00039_39 Transcription termination/antitermination protein NusG,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00593_593,PFFEJNAA_00593_593 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00203_203,PFFEJNAA_00203_203 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00381_381,PFFEJNAA_00381_381 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00535_535,PFFEJNAA_00535_535 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00634_634,PFFEJNAA_00634_634 tRNA-Leu(gag),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00449_449,PFFEJNAA_00449_449 Phosphatidylserine decarboxylase proenzyme,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00549_549,PFFEJNAA_00549_549 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00582_582,PFFEJNAA_00582_582 Oligopeptide transport ATP-binding protein OppF,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00104_104,PFFEJNAA_00104_104 Alternate 30S ribosomal protein S14,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00239_239,PFFEJNAA_00239_239 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00669_669,PFFEJNAA_00669_669 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00135_135,PFFEJNAA_00135_135 Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00601_601,PFFEJNAA_00601_601 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00543_543,PFFEJNAA_00543_543 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00437_437,PFFEJNAA_00437_437 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00557_557,PFFEJNAA_00557_557 tRNA-Trp(cca),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00360_360,PFFEJNAA_00360_360 Uracil-DNA glycosylase,PFFEJNAA_00360_360,b27166 KJ940007 Candidatus Phytoplasma prunorum European stone fruit yellows phytoplasma ESFY,9,77.966,59,13,0,32,90,401,459,plus,3.21e-08,48.2,Not a Phytoplasma sequence
+PFFEJNAA_00496_496,PFFEJNAA_00496_496 Citrate/malate transporter,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00418_418,PFFEJNAA_00418_418 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00639_639,PFFEJNAA_00639_639 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00544_544,PFFEJNAA_00544_544 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00631_631,PFFEJNAA_00631_631 Translation initiation factor IF-2,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00280_280,PFFEJNAA_00280_280 Chromosome partition protein Smc,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00097_97,PFFEJNAA_00097_97 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00644_644,PFFEJNAA_00644_644 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00013_13,PFFEJNAA_00013_13 Small ribosomal subunit biogenesis GTPase RsgA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00170_170,PFFEJNAA_00170_170 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00086_86,PFFEJNAA_00086_86 Leucine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00714_714,PFFEJNAA_00714_714 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00570_570,PFFEJNAA_00570_570 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00576_576,PFFEJNAA_00576_576 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00699_699,PFFEJNAA_00699_699 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00233_233,PFFEJNAA_00233_233 Signal recognition particle receptor FtsY,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00034_34,PFFEJNAA_00034_34 Cysteine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00218_218,PFFEJNAA_00218_218 tRNA-Cys(gca),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00105_105,PFFEJNAA_00105_105 30S ribosomal protein S8,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00504_504,PFFEJNAA_00504_504 Lon protease 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00234_234,PFFEJNAA_00234_234 Signal recognition particle protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00702_702,PFFEJNAA_00702_702 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00716_716,PFFEJNAA_00716_716 Glutamine transport ATP-binding protein GlnQ,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00316_316,PFFEJNAA_00316_316 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00143_143,PFFEJNAA_00143_143 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00155_155,PFFEJNAA_00155_155 Carboxypeptidase 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00255_255,PFFEJNAA_00255_255 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00270_270,PFFEJNAA_00270_270 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00131_131,PFFEJNAA_00131_131 IS3 family transposase ISBsu1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00324_324,PFFEJNAA_00324_324 Phosphate propanoyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00626_626,PFFEJNAA_00626_626 tRNA-Gly(gcc),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00680_680,PFFEJNAA_00680_680 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00448_448,PFFEJNAA_00448_448 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00002_2,PFFEJNAA_00002_2 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00223_223,PFFEJNAA_00223_223 tRNA-Asn(gtt),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00376_376,PFFEJNAA_00376_376 NADH oxidase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00200_200,PFFEJNAA_00200_200 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00036_36,PFFEJNAA_00036_36 Putative TrmH family tRNA/rRNA methyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00628_628,PFFEJNAA_00628_628 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00165_165,PFFEJNAA_00165_165 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00718_718,PFFEJNAA_00718_718 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00289_289,PFFEJNAA_00289_289 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00687_687,PFFEJNAA_00687_687 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00616_616,PFFEJNAA_00616_616 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00467_467,PFFEJNAA_00467_467 tRNA-Thr(tgt),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00458_458,PFFEJNAA_00458_458 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00328_328,PFFEJNAA_00328_328 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00473_473,PFFEJNAA_00473_473 tRNA-Ser(tga),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00226_226,PFFEJNAA_00226_226 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00554_554,PFFEJNAA_00554_554 CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00169_169,PFFEJNAA_00169_169 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00043_43,PFFEJNAA_00043_43 50S ribosomal protein L7/L12,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00277_277,PFFEJNAA_00277_277 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00606_606,PFFEJNAA_00606_606 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00569_569,PFFEJNAA_00569_569 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00252_252,PFFEJNAA_00252_252 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00207_207,PFFEJNAA_00207_207 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00692_692,PFFEJNAA_00692_692 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00301_301,PFFEJNAA_00301_301 Chromosome partition protein Smc,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00208_208,PFFEJNAA_00208_208 Ribonuclease Y,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00196_196,PFFEJNAA_00196_196 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00246_246,PFFEJNAA_00246_246 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00438_438,PFFEJNAA_00438_438 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00102_102,PFFEJNAA_00102_102 50S ribosomal protein L24,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00392_392,PFFEJNAA_00392_392 50S ribosomal protein L35,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00464_464,PFFEJNAA_00464_464 tRNA-Asn(gtt),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00298_298,PFFEJNAA_00298_298 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00152_152,PFFEJNAA_00152_152 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00424_424,PFFEJNAA_00424_424 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00117_117,PFFEJNAA_00117_117 DNA-directed RNA polymerase subunit alpha,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00325_325,PFFEJNAA_00325_325 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00056_56,PFFEJNAA_00056_56 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00198_198,PFFEJNAA_00198_198 Alpha-monoglucosyldiacylglycerol synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00450_450,PFFEJNAA_00450_450 CTP synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00689_689,PFFEJNAA_00689_689 Triosephosphate isomerase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00708_708,PFFEJNAA_00708_708 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00419_419,PFFEJNAA_00419_419 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00485_485,PFFEJNAA_00485_485 DNA primase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00299_299,PFFEJNAA_00299_299 IS3 family transposase ISBsu1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00545_545,PFFEJNAA_00545_545 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00076_76,PFFEJNAA_00076_76 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00510_510,PFFEJNAA_00510_510 Glycine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00012_12,PFFEJNAA_00012_12 Elongation factor 4,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00532_532,PFFEJNAA_00532_532 Histidine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00307_307,PFFEJNAA_00307_307 Manganese transport system ATP-binding protein MntB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00690_690,PFFEJNAA_00690_690 ATP-dependent DNA helicase PcrA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00572_572,PFFEJNAA_00572_572 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00266_266,PFFEJNAA_00266_266 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00603_603,PFFEJNAA_00603_603 Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00513_513,PFFEJNAA_00513_513 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00400_400,PFFEJNAA_00400_400 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00051_51,PFFEJNAA_00051_51 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00204_204,PFFEJNAA_00204_204 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00059_59,PFFEJNAA_00059_59 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00361_361,PFFEJNAA_00361_361 Ribonuclease HIII,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00592_592,PFFEJNAA_00592_592 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00230_230,PFFEJNAA_00230_230 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00627_627,PFFEJNAA_00627_627 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00352_352,PFFEJNAA_00352_352 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00003_3,PFFEJNAA_00003_3 Dipeptide transport system permease protein DppB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00037_37,PFFEJNAA_00037_37 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00179_179,PFFEJNAA_00179_179 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00262_262,PFFEJNAA_00262_262 Peptide chain release factor 2,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00045_45,PFFEJNAA_00045_45 DNA-directed RNA polymerase subunit beta',N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00688_688,PFFEJNAA_00688_688 HTH-type transcriptional regulator PuuR,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00287_287,PFFEJNAA_00287_287 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00553_553,PFFEJNAA_00553_553 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00398_398,PFFEJNAA_00398_398 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00302_302,PFFEJNAA_00302_302 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00619_619,PFFEJNAA_00619_619 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00082_82,"PFFEJNAA_00082_82 Magnesium-transporting ATPase, P-type 1",N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00472_472,PFFEJNAA_00472_472 tRNA-Met(cat),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00459_459,PFFEJNAA_00459_459 Calcium-transporting ATPase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00339_339,PFFEJNAA_00339_339 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00720_720,PFFEJNAA_00720_720 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00478_478,PFFEJNAA_00478_478 Inorganic pyrophosphatase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00499_499,PFFEJNAA_00499_499 Thymidylate synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00057_57,PFFEJNAA_00057_57 Type-1 restriction enzyme R protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00317_317,PFFEJNAA_00317_317 NADH pyrophosphatase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00150_150,PFFEJNAA_00150_150 RNA polymerase sigma factor FliA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00209_209,"PFFEJNAA_00209_209 2',3'-cyclic-nucleotide 2'-phosphodiesterase",N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00178_178,PFFEJNAA_00178_178 Putative dipeptidase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00614_614,PFFEJNAA_00614_614 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00148_148,PFFEJNAA_00148_148 Heat-inducible transcription repressor HrcA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00363_363,PFFEJNAA_00363_363 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00140_140,PFFEJNAA_00140_140 Ribonuclease J1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00038_38,PFFEJNAA_00038_38 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00512_512,PFFEJNAA_00512_512 RNA polymerase sigma factor SigA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00620_620,PFFEJNAA_00620_620 Calcium-transporting ATPase 1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00185_185,PFFEJNAA_00185_185 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00243_243,PFFEJNAA_00243_243 Glutamine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00157_157,PFFEJNAA_00157_157 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00651_651,PFFEJNAA_00651_651 Bifunctional oligoribonuclease and PAP phosphatase NrnA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00029_29,PFFEJNAA_00029_29 tRNA-Pro(tgg),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00110_110,PFFEJNAA_00110_110 50S ribosomal protein L15,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00346_346,PFFEJNAA_00346_346 Single-stranded DNA-binding protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00719_719,PFFEJNAA_00719_719 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00531_531,PFFEJNAA_00531_531 Aspartate--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00249_249,PFFEJNAA_00249_249 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00187_187,PFFEJNAA_00187_187 Integration host factor subunit alpha,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00141_141,PFFEJNAA_00141_141 Ribonuclease J 2,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00358_358,PFFEJNAA_00358_358 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00322_322,PFFEJNAA_00322_322 Ribosomal RNA small subunit methyltransferase A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00224_224,PFFEJNAA_00224_224 Polyribonucleotide nucleotidyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00417_417,PFFEJNAA_00417_417 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00231_231,PFFEJNAA_00231_231 Ribosome biogenesis GTPase A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00321_321,PFFEJNAA_00321_321 Putative septation protein SpoVG,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00686_686,PFFEJNAA_00686_686 Holliday junction ATP-dependent DNA helicase RuvA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00297_297,PFFEJNAA_00297_297 IS3 family transposase ISStin5,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00311_311,PFFEJNAA_00311_311 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00621_621,PFFEJNAA_00621_621 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00163_163,PFFEJNAA_00163_163 Serine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00313_313,PFFEJNAA_00313_313 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00087_87,PFFEJNAA_00087_87 Guanylate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00049_49,PFFEJNAA_00049_49 Elongation factor Tu,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00123_123,PFFEJNAA_00123_123 Thymidylate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00089_89,PFFEJNAA_00089_89 Ribosomal RNA small subunit methyltransferase H,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00222_222,PFFEJNAA_00222_222 tRNA-Val(tac),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00434_434,PFFEJNAA_00434_434 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00164_164,PFFEJNAA_00164_164 30S ribosomal protein S20,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00489_489,PFFEJNAA_00489_489 CCA-adding enzyme,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00248_248,PFFEJNAA_00248_248 DNA gyrase subunit B,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00229_229,PFFEJNAA_00229_229 tRNA(Ile)-lysidine synthase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00160_160,PFFEJNAA_00160_160 Arginine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00021_21,PFFEJNAA_00021_21 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00268_268,PFFEJNAA_00268_268 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00483_483,PFFEJNAA_00483_483 IS3 family transposase ISErh1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00521_521,PFFEJNAA_00521_521 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00100_100,PFFEJNAA_00100_100 30S ribosomal protein S17,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00591_591,PFFEJNAA_00591_591 Ribosome-binding ATPase YchF,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00548_548,PFFEJNAA_00548_548 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00665_665,PFFEJNAA_00665_665 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00454_454,PFFEJNAA_00454_454 Phosphate acyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00244_244,PFFEJNAA_00244_244 tRNA N6-adenosine threonylcarbamoyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00661_661,PFFEJNAA_00661_661 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00033_33,PFFEJNAA_00033_33 Glutamate--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00122_122,PFFEJNAA_00122_122 tRNA pseudouridine synthase A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00444_444,PFFEJNAA_00444_444 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00020_20,PFFEJNAA_00020_20 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00193_193,PFFEJNAA_00193_193 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00610_610,PFFEJNAA_00610_610 Pyruvate dehydrogenase E1 component subunit alpha,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00638_638,PFFEJNAA_00638_638 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00526_526,PFFEJNAA_00526_526 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00453_453,PFFEJNAA_00453_453 Ribonuclease 3,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00662_662,PFFEJNAA_00662_662 Glutamine transport system permease protein GlnP,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00055_55,PFFEJNAA_00055_55 Type-1 restriction enzyme R protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00525_525,PFFEJNAA_00525_525 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00580_580,PFFEJNAA_00580_580 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00517_517,PFFEJNAA_00517_517 Putative pre-16S rRNA nuclease,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00022_22,PFFEJNAA_00022_22 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00385_385,PFFEJNAA_00385_385 tRNA-Tyr(gta),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00522_522,PFFEJNAA_00522_522 Ribosomal RNA small subunit methyltransferase D,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00507_507,PFFEJNAA_00507_507 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00146_146,PFFEJNAA_00146_146 Chaperone protein DnaK,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00119_119,PFFEJNAA_00119_119 Energy-coupling factor transporter ATP-binding protein EcfA1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00422_422,PFFEJNAA_00422_422 UvrABC system protein B,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00590_590,PFFEJNAA_00590_590 Isoleucine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00492_492,PFFEJNAA_00492_492 Vitamin B12 import ATP-binding protein BtuD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00081_81,PFFEJNAA_00081_81 30S ribosomal protein S4,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00190_190,PFFEJNAA_00190_190 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00465_465,PFFEJNAA_00465_465 Polyribonucleotide nucleotidyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00184_184,PFFEJNAA_00184_184 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00579_579,PFFEJNAA_00579_579 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00694_694,PFFEJNAA_00694_694 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00515_515,PFFEJNAA_00515_515 50S ribosomal protein L32,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00604_604,PFFEJNAA_00604_604 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00681_681,PFFEJNAA_00681_681 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00468_468,PFFEJNAA_00468_468 tRNA-Lys(ttt),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00166_166,PFFEJNAA_00166_166 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00092_92,PFFEJNAA_00092_92 50S ribosomal protein L4,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00551_551,PFFEJNAA_00551_551 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00501_501,PFFEJNAA_00501_501 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00671_671,PFFEJNAA_00671_671 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00596_596,PFFEJNAA_00596_596 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00103_103,PFFEJNAA_00103_103 50S ribosomal protein L5,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00310_310,PFFEJNAA_00310_310 putative Hsp20 family chaperone,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00451_451,PFFEJNAA_00451_451 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00005_5,PFFEJNAA_00005_5 Oligopeptide transport ATP-binding protein OppF,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00109_109,PFFEJNAA_00109_109 50S ribosomal protein L30,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00366_366,PFFEJNAA_00366_366 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00555_555,PFFEJNAA_00555_555 Protein RecA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00044_44,PFFEJNAA_00044_44 DNA-directed RNA polymerase subunit beta,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00482_482,PFFEJNAA_00482_482 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00213_213,PFFEJNAA_00213_213 Glycerol-3-phosphate dehydrogenase [NAD(P)+],N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00715_715,PFFEJNAA_00715_715 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00391_391,PFFEJNAA_00391_391 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00646_646,PFFEJNAA_00646_646 Asparagine--tRNA ligase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00433_433,PFFEJNAA_00433_433 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00650_650,PFFEJNAA_00650_650 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00668_668,PFFEJNAA_00668_668 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00609_609,PFFEJNAA_00609_609 Pyruvate kinase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00241_241,PFFEJNAA_00241_241 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00425_425,PFFEJNAA_00425_425 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00660_660,PFFEJNAA_00660_660 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00286_286,PFFEJNAA_00286_286 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00565_565,PFFEJNAA_00565_565 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00168_168,PFFEJNAA_00168_168 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00416_416,PFFEJNAA_00416_416 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00265_265,PFFEJNAA_00265_265 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00118_118,PFFEJNAA_00118_118 50S ribosomal protein L17,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00679_679,PFFEJNAA_00679_679 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00728_728,PFFEJNAA_00728_728 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00124_124,PFFEJNAA_00124_124 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00414_414,PFFEJNAA_00414_414 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00712_712,PFFEJNAA_00712_712 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00111_111,PFFEJNAA_00111_111 Protein translocase subunit SecY,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00046_46,PFFEJNAA_00046_46 30S ribosomal protein S12,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00635_635,PFFEJNAA_00635_635 putative protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00440_440,PFFEJNAA_00440_440 Citrate-sodium symporter,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00269_269,PFFEJNAA_00269_269 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00206_206,PFFEJNAA_00206_206 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00237_237,PFFEJNAA_00237_237 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00379_379,PFFEJNAA_00379_379 Chromosome partition protein Smc,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00493_493,PFFEJNAA_00493_493 Thioredoxin,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00575_575,PFFEJNAA_00575_575 IS3 family transposase ISErh1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00201_201,PFFEJNAA_00201_201 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00161_161,PFFEJNAA_00161_161 Ribosomal large subunit pseudouridine synthase D,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00500_500,PFFEJNAA_00500_500 Dihydrofolate reductase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00585_585,PFFEJNAA_00585_585 Cyclic di-AMP receptor A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00494_494,PFFEJNAA_00494_494 tRNA pseudouridine synthase B,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00615_615,PFFEJNAA_00615_615 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00404_404,PFFEJNAA_00404_404 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00439_439,PFFEJNAA_00439_439 Glycerol-3-phosphate acyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00460_460,PFFEJNAA_00460_460 Peptidyl-tRNA hydrolase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00559_559,PFFEJNAA_00559_559 tRNA-Gln(ttg),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00350_350,PFFEJNAA_00350_350 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00047_47,PFFEJNAA_00047_47 30S ribosomal protein S7,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00727_727,PFFEJNAA_00727_727 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00537_537,PFFEJNAA_00537_537 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00254_254,PFFEJNAA_00254_254 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00172_172,PFFEJNAA_00172_172 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00085_85,PFFEJNAA_00085_85 Acyl carrier protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00210_210,PFFEJNAA_00210_210 tRNA dimethylallyltransferase,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00502_502,PFFEJNAA_00502_502 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00393_393,PFFEJNAA_00393_393 tRNA-Leu(caa),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00372_372,PFFEJNAA_00372_372 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00010_10,PFFEJNAA_00010_10 Spermidine/putrescine transport system permease protein PotB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00323_323,PFFEJNAA_00323_323 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00446_446,PFFEJNAA_00446_446 Nucleoid-associated protein YbaB,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00090_90,PFFEJNAA_00090_90 30S ribosomal protein S10,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00486_486,PFFEJNAA_00486_486 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00637_637,PFFEJNAA_00637_637 ATP-dependent zinc metalloprotease FtsH 2,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00069_69,PFFEJNAA_00069_69 50S ribosomal protein L27,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00584_584,PFFEJNAA_00584_584 Oligopeptide transport ATP-binding protein OppD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00710_710,PFFEJNAA_00710_710 DEAD-box ATP-dependent RNA helicase CshA,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00356_356,PFFEJNAA_00356_356 Single-stranded DNA-binding protein A,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00024_24,PFFEJNAA_00024_24 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00121_121,PFFEJNAA_00121_121 Energy-coupling factor transporter transmembrane protein EcfT,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00484_484,PFFEJNAA_00484_484 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00695_695,PFFEJNAA_00695_695 putative ABC transporter ATP-binding protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00491_491,PFFEJNAA_00491_491 Vitamin B12 import ATP-binding protein BtuD,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00027_27,PFFEJNAA_00027_27 tRNA-Glu(ttc),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00463_463,PFFEJNAA_00463_463 tRNA-Val(tac),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00466_466,PFFEJNAA_00466_466 tRNA-Val(tac),N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00597_597,PFFEJNAA_00597_597 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00041_41,PFFEJNAA_00041_41 50S ribosomal protein L1,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00666_666,PFFEJNAA_00666_666 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00340_340,PFFEJNAA_00340_340 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00279_279,PFFEJNAA_00279_279 ATP-dependent zinc metalloprotease FtsH,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00098_98,PFFEJNAA_00098_98 50S ribosomal protein L16,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00147_147,PFFEJNAA_00147_147 Protein GrpE,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00632_632,PFFEJNAA_00632_632 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00641_641,PFFEJNAA_00641_641 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00396_396,PFFEJNAA_00396_396 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence
+PFFEJNAA_00693_693,PFFEJNAA_00693_693 hypothetical protein,N/A,No Phytoplasma sequence matches,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not a Phytoplasma sequence

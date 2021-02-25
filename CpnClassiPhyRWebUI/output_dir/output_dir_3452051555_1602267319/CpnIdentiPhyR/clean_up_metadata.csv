@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+hopper-cpn60-c2_SP6_KK3048_13_1,hopper-cpn60-c2_SP6_KK3048_13_1 NS-hopper-cpn60-c2.0.1,hopper-cpn60-c2_SP6_KK3048_13_1,b27144 KJ939994 Candidatus Phytoplasma asteris Aster yellows phytoplasma AY-Col,100,99.819,552,1,0,1,552,1,552,plus,0.0,991,Phytoplasma sequence (+ strand)

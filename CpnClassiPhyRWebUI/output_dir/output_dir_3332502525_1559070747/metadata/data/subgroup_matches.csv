@@ -1,0 +1,6 @@
+Strain,Best Match,Similarity Coefficient Calculation,F Value,Classification
+AB124810.1_5,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+AB124811.1_4,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+AB738737.1_3,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+AB738741.1_2,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+KF430807.1_1,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB

@@ -1,0 +1,269 @@
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade>
+      <clade>
+        <branch_length>0.27590191</branch_length>
+        <confidence type="unknown">0.443</confidence>
+        <clade>
+          <branch_length>0.00684246</branch_length>
+          <confidence type="unknown">0.997</confidence>
+          <clade>
+            <branch_length>0.05001677</branch_length>
+            <confidence type="unknown">1.0</confidence>
+            <clade>
+              <branch_length>0.07090209</branch_length>
+              <confidence type="unknown">0.999</confidence>
+              <clade>
+                <branch_length>0.01928168</branch_length>
+                <confidence type="unknown">0.996</confidence>
+                <clade>
+                  <branch_length>0.01039704</branch_length>
+                  <clade>
+                    <branch_length>0.00144137</branch_length>
+                    <confidence type="unknown">0.636</confidence>
+                    <clade>
+                      <branch_length>0.00039975</branch_length>
+                      <confidence type="unknown">0.512</confidence>
+                      <clade>
+                        <name>I-IIB b27133 AB599689 Candidatus Phytoplasma asteris Aster yellows phytoplasma (AY-J)</name>
+                        <branch_length>0.00181027</branch_length>
+                      </clade>
+                      <clade>
+                        <name>I-IIIB b27135 KT444673 Candidatus Phytoplasma asteris Maize bushy stunt phytoplasma (MBS-Ver)</name>
+                        <branch_length>2.391E-05</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>I-IVB b27138 KT444672 Candidatus Phytoplasma asteris Maize bushy stunt phytoplasma (MBS-Pueb)</name>
+                      <branch_length>0.00143712</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.00040595</branch_length>
+                    <confidence type="unknown">0.375</confidence>
+                    <clade>
+                      <name>I-IB b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma (SF1)</name>
+                      <branch_length>0.00026022</branch_length>
+                    </clade>
+                    <clade>
+                      <name>I-VB b27139 AB242234 Candidatus Phytoplasma asteris Iceland poppy yellows phytoplasma (IPY)</name>
+                      <branch_length>0.00157397</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.00205705</branch_length>
+                  <confidence type="unknown">0.535</confidence>
+                  <clade>
+                    <branch_length>0.00171572</branch_length>
+                    <confidence type="unknown">0.83</confidence>
+                    <clade>
+                      <name>I-IA b27096 KJ939998 Candidatus Phytoplasma asteris Allium cepa phytoplasma (O2L)</name>
+                      <branch_length>0.00851</branch_length>
+                    </clade>
+                    <clade>
+                      <name>I-IIA b27104 AB599694 Candidatus Phytoplasma asteris Grey dogwood stunt phytoplasma (GD)</name>
+                      <branch_length>0.00825634</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.00115002</branch_length>
+                    <confidence type="unknown">0.448</confidence>
+                    <clade>
+                      <name>I-IC b27144 KJ939994 Candidatus Phytoplasma asteris Aster yellows phytoplasma (AY-Col)</name>
+                      <branch_length>0.0078381</branch_length>
+                    </clade>
+                    <clade>
+                      <branch_length>0.00352235</branch_length>
+                      <confidence type="unknown">0.828</confidence>
+                      <clade>
+                        <name>I-I(E/AI)AI b27454 MH279496 Candidatus Phytoplasma asteris Blueberry stunt phytoplasma (BbSP)</name>
+                        <branch_length>0.01118904</branch_length>
+                      </clade>
+                      <clade>
+                        <name>I-IF b27145 KJ939995 Candidatus Phytoplasma asteris Aster yellows phytoplasma (CVB)</name>
+                        <branch_length>0.00927984</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>I-IP b27151 AB599710 Candidatus Phytoplasma asteris Populus decline phytoplasma (PopD)</name>
+                <branch_length>0.02840011</branch_length>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.01181642</branch_length>
+              <confidence type="unknown">0.814</confidence>
+              <clade>
+                <name>XII-IA b27168 KJ939979 Candidatus Phytoplasma solani Bois noir phytoplasma (BN44948)</name>
+                <branch_length>0.11852515</branch_length>
+              </clade>
+              <clade>
+                <branch_length>0.01016505</branch_length>
+                <confidence type="unknown">0.595</confidence>
+                <clade>
+                  <name>XII-I(B/C)B b26419 NC_021236 Candidatus Phytoplasma australiense Strawberry lethal yellows phytoplasma (NZSb11)</name>
+                  <branch_length>0.10503785</branch_length>
+                </clade>
+                <clade>
+                  <name>XIII-(A/I)I b27178 KT444662 Candidatus Phytoplasma sp. Mexican periwinkle virescence (MPV-S83)</name>
+                  <branch_length>0.07603747</branch_length>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.05143673</branch_length>
+            <confidence type="unknown">0.94</confidence>
+            <clade>
+              <branch_length>0.02490388</branch_length>
+              <confidence type="unknown">0.804</confidence>
+              <clade>
+                <branch_length>0.00917671</branch_length>
+                <confidence type="unknown">0.355</confidence>
+                <clade>
+                  <branch_length>0.04599034</branch_length>
+                  <confidence type="unknown">0.991</confidence>
+                  <clade>
+                    <branch_length>0.0685333</branch_length>
+                    <confidence type="unknown">1.0</confidence>
+                    <clade>
+                      <branch_length>0.00565208</branch_length>
+                      <confidence type="unknown">0.841</confidence>
+                      <clade>
+                        <name>MH279492.1_1 Candidatus Phytoplasma cynodontis isolate 170-cpn-C1_SP6_KK3169_2 chaperonin 60 (cpn60) gene, partial cds length=555 (+ strand)</name>
+                        <branch_length>0.0067994</branch_length>
+                      </clade>
+                      <clade>
+                        <name>XIV-IA b27180 KF383984 Candidatus Phytoplasma cynodontis Bermuda white leaf phytoplasma (AL85/11)</name>
+                        <branch_length>0.00812144</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>XIV-IC b27183 KF383985 Candidatus Phytoplasma cynodontis Bermuda white leaf phytoplasma (RS59/11)</name>
+                      <branch_length>0.01716587</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>XI-ID b31184 MH279493 Candidatus Phytoplasma oryzae (SCWL)</name>
+                    <branch_length>0.07249963</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.00339806</branch_length>
+                  <confidence type="unknown">0.222</confidence>
+                  <clade>
+                    <name>XXI-IB bxxxxx VIAE01000001.1 Candidatus Phytoplasma pini strain (MDPP)</name>
+                    <branch_length>0.10170693</branch_length>
+                  </clade>
+                  <clade>
+                    <branch_length>0.01210945</branch_length>
+                    <confidence type="unknown">0.574</confidence>
+                    <clade>
+                      <branch_length>0.02787167</branch_length>
+                      <confidence type="unknown">0.979</confidence>
+                      <clade>
+                        <branch_length>0.06060887</branch_length>
+                        <confidence type="unknown">1.0</confidence>
+                        <clade>
+                          <name>IV-IA b34437 KY779619 Candidatus Phytoplasma palmae (Cocos nucifera phytoplasma)</name>
+                          <branch_length>0.01971749</branch_length>
+                        </clade>
+                        <clade>
+                          <name>IV-IE b32836 MH922783 Candidatus Phytoplasma palmae (Palm-A-DR)</name>
+                          <branch_length>0.02201676</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>IV-IC b32834 MH922781 Candidatus Phytoplasma cocostanzaniae (TagTall)</name>
+                        <branch_length>0.082374</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.13861415</branch_length>
+                      <confidence type="unknown">1.0</confidence>
+                      <clade>
+                        <name>V-IC b27155 KJ939990 Candidatus Phytoplasma sp. rubi Rubus stunt phytoplasma (RS)</name>
+                        <branch_length>0.08567922</branch_length>
+                      </clade>
+                      <clade>
+                        <name>VII-IA b27156 KJ939978 Candidatus Phytoplasma fraxini Ash yellows phytoplasma (AshY)</name>
+                        <branch_length>0.10673129</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.10374207</branch_length>
+                <confidence type="unknown">1.0</confidence>
+                <clade>
+                  <name>IX-IB b27157 KND62606 Candidatus Phytoplasma phoenicium Almond witches-broom (SA213)</name>
+                  <branch_length>0.04346304</branch_length>
+                </clade>
+                <clade>
+                  <branch_length>0.01958824</branch_length>
+                  <confidence type="unknown">0.981</confidence>
+                  <clade>
+                    <name>IX-IA b27158 KJ939989 Candidatus Phytoplasma phoenicium Brazilian Huanglongbing phytoplasma (Cr)</name>
+                    <branch_length>0.02178385</branch_length>
+                  </clade>
+                  <clade>
+                    <name>IX-IJ b31188 KY986918 Candidatus Phytoplasma phoenicium (ChicBS)</name>
+                    <branch_length>0.02613601</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.22030856</branch_length>
+              <confidence type="unknown">1.0</confidence>
+              <clade>
+                <branch_length>0.00522778</branch_length>
+                <confidence type="unknown">0.497</confidence>
+                <clade>
+                  <name>II-IA b27152 NZ_AMWZ00000000 Candidatus Phytoplasma sp. Peanut witches-broom phytoplasma NTU2011 (PnWB)</name>
+                  <branch_length>0.05369114</branch_length>
+                </clade>
+                <clade>
+                  <name>II-IC b31187 MH279495 Candidatus Phytoplasma aurantifolia (R018)</name>
+                  <branch_length>0.04431817</branch_length>
+                </clade>
+              </clade>
+              <clade>
+                <name>XV-IB b31186 MH279494 Candidatus Phytoplasma brasiliense (PeruPBT)</name>
+                <branch_length>0.05323612</branch_length>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <branch_length>0.08678098</branch_length>
+          <confidence type="unknown">1.0</confidence>
+          <clade>
+            <branch_length>0.0060211</branch_length>
+            <confidence type="unknown">0.805</confidence>
+            <clade>
+              <name>X-IA b27159 KJ939977 Candidatus Phytoplasma mali Apple proliferation phytoplasma (AP)</name>
+              <branch_length>0.02852945</branch_length>
+            </clade>
+            <clade>
+              <name>X-IC b27165 KJ940010 Candidatus Phytoplasma pyri Peach yellow leaf roll phytoplasma (PYLR)</name>
+              <branch_length>0.02553786</branch_length>
+            </clade>
+          </clade>
+          <clade>
+            <name>X-IF b27166 KJ940007 Candidatus Phytoplasma prunorum European stone fruit yellows phytoplasma (ESFY)</name>
+            <branch_length>0.01365577</branch_length>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>b30065 LXYB01000004 Acholeplasma laidlawii PG8R10</name>
+        <branch_length>0.0</branch_length>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>

@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+WA_1,WA_1 ,WA_1,b27155 KJ939990 Candidatus Phytoplasma sp. rubi Rubus stunt phytoplasma RS,99,97.283,552,15,0,2,553,1,552,plus,0.0,928,Phytoplasma sequence (+ strand)

@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+Contig1_1,Contig1_1 ,Contig1_1,b31184 MH279493 Candidatus Phytoplasma oryzae SCWL,42,100.000,552,0,0,366,917,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

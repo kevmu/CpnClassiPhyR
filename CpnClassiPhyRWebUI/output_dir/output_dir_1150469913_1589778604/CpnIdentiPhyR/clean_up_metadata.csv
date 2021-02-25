@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+MH279509.1_1,"MH279509.1_1 'Vaccinium corymbosum' phytoplasma isolate NS7-4A08-cpn60-2_SP6_KK3284_12 chaperonin-60 (cpn60) gene, partial cds",MH279509.1_1,b27454 MH279496 Candidatus Phytoplasma asteris Blueberry stunt phytoplasma BbSP,100,99.638,552,2,0,1,552,1,552,plus,0.0,987,Phytoplasma sequence (+ strand)

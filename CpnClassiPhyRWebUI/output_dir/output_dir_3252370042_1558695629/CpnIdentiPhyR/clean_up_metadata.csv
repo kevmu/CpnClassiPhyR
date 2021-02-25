@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+Silauoge_1,Silauoge_1 ,Silauoge_1,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,100,99.819,552,1,0,1,552,1,552,plus,0.0,991,Phytoplasma sequence (+ strand)

@@ -1,0 +1,2 @@
+Strain,Best Match,Similarity Coefficient Calculation,F Value,Classification
+test_1,IV-IE,F = ( 2 * 21 ) / ( 21 + 21 ),1.0,Exact match to Cpn60 UT IV-IE

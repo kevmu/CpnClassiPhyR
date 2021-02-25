@@ -1,0 +1,255 @@
+<?php
+//    echo "Hello World!";
+    
+    function read_fas_file($x) { // Check for Empty File
+        if (!file_exists($x)) {
+            print "File Not Exist!!";
+            exit();
+        } else {
+            $fh = fopen($x, 'r');
+            if (filesize($x) == 0) {
+                print "File is Empty!!";
+                fclose($fh);
+                exit();
+            } else {
+                $f = fread($fh, filesize($x));
+                fclose($fh);
+                return $f;
+            }
+        }
+    }
+    
+    function fas_check($x) { // Check FASTA File Format
+        $gt = substr($x, 0, 1);
+//        echo $gt;
+        if ($gt != ">") {
+            echo "Invalid FASTA file format! Hint: The first line must have a fasta header line starting with a greater than symbol '>' followed by a unique sequence identifier. Please edit your fasta file and resubmit!";
+            
+           die;
+        } else {
+            return $x;
+        }
+    }
+    
+    $uploads_dir = $_SERVER['DOCUMENT_ROOT'] . '/uploads';
+//    $uploads_dir = $_SERVER['DOCUMENT_ROOT'] . '/' . 'CpnClassiPhyRWebUI/uploads';
+    
+//    $uploads_dir = '/var/www/CpnClassiPhyRWebUI/uploads';
+
+    if (!file_exists($uploads_dir)) {
+//        echo "The file $uploads_dir exists";
+        mkdir($uploads_dir);
+    }
+    
+    $time = time();
+    
+    $output_dir = $_SERVER['DOCUMENT_ROOT'] . '/output_dir';
+//    $output_dir = $_SERVER['DOCUMENT_ROOT'] . '/' . 'CpnClassiPhyRWebUI/output_dir';
+//    $output_dir = '/var/www/CpnClassiPhyRWebUI/output_dir';
+
+    if (!file_exists($output_dir)) {
+        //        echo "The file $output_dir exists";
+        mkdir($output_dir);
+    }
+    
+    $current_output_dir = $output_dir . '/' . 'output_dir' . '_' . $time;
+    if (!file_exists($output_dir)) {
+        //        echo "The file $output_dir exists";
+        mkdir($current_output_dir);
+    }
+    
+    $textarea = $_POST['file'];
+    
+//echo $textarea;
+//    die;
+//    $info = pathinfo($_FILES['file']['name']);
+//    $ext = $info['extension']; // get the extension of the file
+//    
+//    $filename = $_FILES['file']['name'];
+//    $target_filepath = $uploads_dir . '/' . $filename;
+    $target_filepath = $uploads_dir . '/' . $time . '.fa.txt';
+//	echo '<br>' . $target_path;
+    
+//    move_uploaded_file($_FILES['file']['tmp_name'], $target_filepath);
+//    echo '<br>' . $target_filepath . '<br>';
+    
+//    $textarea = read_fas_file($target_filepath);
+//    echo $textarea;
+    if(fas_check($textarea)){
+        $fh = fopen($target_filepath, 'w');
+        fwrite($fh, $textarea);
+        fclose($fh);
+
+//        echo "The file $filename has been uploaded sucessfully!" . "<br>";
+        
+    }else{
+//        unlink($target_filepath);
+    }
+    
+//    echo "Running CpnClassiPhyR on input file....." . "<br>";
+    
+    $cpnClassiPhyRCommand = escapeshellcmd('/usr/bin/python3.5' . ' ' . $_SERVER['DOCUMENT_ROOT'] . '/' . "CpnClassiPhyR/phyto_RFLP_digest.py -i $target_filepath -o $current_output_dir");
+//    $cpnClassiPhyRCommand = escapeshellcmd('/usr/local/bin/python3.6' . ' ' . $_SERVER['DOCUMENT_ROOT'] . '/' . 'CpnClassiPhyRWebUI' . '/' . 'CpnClassiPhyR' . '/' . "phyto_RFLP_digest.py -i $target_filepath -o $current_output_dir");
+//    $cpnClassiPhyRCommand = escapeshellcmd('/usr/bin/python' . ' ' . "/var/www/CpnClassiPhyRWebUI/CpnClassiPhyR/phyto_RFLP_digest.py -i $target_filepath -o $current_output_dir");
+//    echo "<br>" . $cpnClassiPhyRCommand;
+    $output = shell_exec($cpnClassiPhyRCommand);
+//    Strain,Subgroup Match,Similarity Coefficient Calculation,F Value
+//    echo $output;
+    
+
+    $subgroup_matches_infile = $current_output_dir . '/' . 'metadata' . '/' . 'data' . '/' . 'subgroup_matches.csv';
+    
+    $numbands_infile = $current_output_dir . '/' . 'metadata' . '/' . 'data' . '/' . 'num_bands.csv';
+    $sc_matrix_infile = $current_output_dir . '/' . 'metadata' . '/' . 'data' . '/' . 'similarity_coefficient_matrix.csv';
+    
+    $input_RFLP_digests_infile = $current_output_dir . '/' . 'metadata' . '/' . 'json' . '/' . 'RFLP_digests.json';
+    
+    $string = file_get_contents($input_RFLP_digests_infile);
+    $input_digests_json = json_decode($string, true);
+    
+    echo "<ul class=\"nav nav-tabs\">";
+    echo "<li class=\"active\"><a data-toggle=\"tab\" href=\"#home\">Best Subgroup Matches</a></li>";
+    echo "<li><a data-toggle=\"tab\" href=\"#menu1\">Number of Bands</a></li>";
+    echo "<li><a data-toggle=\"tab\" href=\"#menu2\">Similarity Coefficient Matrix</a></li>";
+    echo "</ul>";
+    
+    echo "<div class=\"tab-content\">";
+    echo "<div id=\"home\" class=\"tab-pane fade in active\">";
+    echo "<h3>Best Subgroup Matches</h3>";
+    echo "<div class=\"table-responsive\">";
+    echo "<table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\" role=\"grid\" aria-describedby=\"dataTables-example_info\">";
+    echo "<thead>";
+    echo "<tr role=\"row\">";
+    echo "<th>Strain Name</th>";
+    echo "<th>Best Subgroup Match</th>";
+        echo "<th>Similarity Coefficient Calculation</th>";
+//        echo "<th>Similarity Coefficient Calculation</th>";
+    echo "<th>F Value</th>";
+    echo "<th>Virtual Gel Strain x</th>";
+    echo "<th>Virtual Gel Strain y</th>";
+    echo "</tr>";
+    echo "</thead>";
+    echo "<tbody>";
+    
+    $row = 0;
+    if (($handle = fopen($subgroup_matches_infile, "r")) !== FALSE) {
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            if($row != 0){
+                
+                
+                $strain_name = $data[0];
+                $best_match = $data[1];
+                $sc_calc = $data[2];
+                $F_value = $data[3];
+//                $vgel_strain_x_file = $input_digests_json[$strain_name]['virtual_gel_filepath'];
+                $vgel_strain_x_file = '../output_dir/output_dir' . '_' . $time . '/metadata/gels' . '/' . "$strain_name.png";
+                $vgel_strain_y_file = '../CpnClassiPhyR/subgroup_metadata/gels' . '/' . "$best_match.png";
+                echo "<tr role=\"row\">";
+                echo "<td style=\"white-space: nowrap\">$strain_name</td>";
+                
+                
+                echo "<td>$best_match</td>";
+		echo "<td>$sc_calc</td>";
+                echo "<td>$F_value</td>";
+                echo "<td><img id=\"myImg1\" src=\"$vgel_strain_x_file\" alt=\"$strain_name.png\" width=\"300\" height=\"200\"></td>";
+                echo "<td><img id=\"myImg2\" src=\"$vgel_strain_y_file\" alt=\"$best_match.png\" width=\"300\" height=\"200\"></td>";
+                
+                echo "</tr>";
+            }
+            $row++;
+        }
+        fclose($handle);
+    }
+    echo "</tbody>";
+    echo "</table>";
+    echo "</div>";
+    echo "</div>";
+    echo "<div id=\"menu1\" class=\"tab-pane fade\">";
+    echo "<h3>Number of Bands</h3>";
+    echo "<div class=\"table-responsive\">";
+    echo "<table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\" role=\"grid\" aria-describedby=\"dataTables-example_info\">";
+    echo "<thead>";
+    echo "<tr role=\"row\">";
+    echo "<th>Strain Name</th>";
+    echo "<th>Description</th>";
+//    echo "<th>AluI Band Sizes</th>";
+//    echo "<th>AluI Number of Bands</th>";
+//    echo "<th>BfaI Band Sizes</th>";
+//    echo "<th>BfaI Number of Bands</th>";
+//    echo "<th>HinfI Band Sizes</th>";
+//    echo "<th>HinfI Number of Bands</th>";
+//    echo "<th>HpaI Band Sizes</th>";
+//    echo "<th>HpaI Number of Bands</th>";
+//    echo "<th>MseI Band Sizes</th>";
+//    echo "<th>MseI Number of Bands</th>";
+//    echo "<th>RsaI Band Sizes</th>";
+//    echo "<th>RsaI Number of Bands</th>";
+//    echo "<th>TaqI Band Sizes</th>";
+//    echo "<th>TaqI Number of Bands</th>";
+    echo "</tr>";
+    echo "</thead>";
+    echo "<tbody>";
+    
+    $row = 0;
+    if (($handle = fopen($numbands_infile, "r")) !== FALSE) {
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            if($row != 0){
+                
+                $strain_name = $data[0];
+                $description = $data[1];
+//                $AluI_band_sizes = $data[2];
+//                $AluI_num_bands = $data[3;
+//                $BfaI_band_sizes = $data[4];
+//                $BfaI_num_bands = $data[5];
+//                $HinfI_band_sizes = $data[6];
+//                $HinfI_num_bands = $data[7];
+//                $HpaI_band_sizes = $data[8];
+//                $HpaI_num_bands = $data[9];
+//                $MseI_band_sizes = $data[10];
+//                $MseI_num_bands = $data[11];
+//                $RsaI_band_sizes = $data[12];
+//                $RsaI_num_bands = $data[13];
+//                $TaqI_band_sizes = $data[14];
+//                $TaqI_num_bands = $data[15];
+                
+                echo "<tr role=\"row\">";
+                echo "<td style=\"white-space: nowrap\">$strain_name</td>";
+                echo "<td>$description</td>";
+//                echo "<td>$AluI_band_sizes</td>";
+//                echo "<td>$AluI_num_bands</td>";
+//                echo "<td>$BfaI_band_sizes</td>";
+//                echo "<td>$BfaI_num_bands</td>";
+//                echo "<td>$HinfI_band_sizes</td>";
+//                echo "<td>$HinfI_num_bands</td>";
+//                echo "<td>$HpaI_band_sizes</td>";
+//                echo "<td>$HpaI_num_bands</td>";
+//                echo "<td>$MseI_band_sizes</td>";
+//                echo "<td>$MseI_num_bands</td>";
+//                echo "<td>$RsaI_band_sizes</td>";
+//                echo "<td>$RsaI_num_bands</td>";
+//                echo "<td>$TaqI_band_sizes</td>";
+//                echo "<td>$TaqI_num_bands</td>";
+                
+                
+                
+                echo "</tr>";
+            }
+            $row++;
+        }
+        fclose($handle);
+    }
+    
+    echo "</tbody>";
+    echo "</table>";
+    echo "</div>";
+    echo "</div>";
+    echo "<div id=\"menu2\" class=\"tab-pane fade\">";
+    echo "<h3>Similarity Coefficient Matrix</h3>";
+    echo "<p>Some content in menu 2.</p>";
+    echo "</div>";
+    echo "</div>";
+    echo "<a href=\"../pages/CpnClassiPhyR.php\" class=\"btn btn-primary active\" role=\"button\" aria-pressed=\"true\">Refresh</a>";
+//    echo "<button type=\"submit\" id=\"refresh\" class=\"btn btn-default\"><a href=\"../pages/CpnClassiPhyR.php\"><i class=\"fa redo-alt fa-fw\"></i>Refresh</a></button";
+//        echo $output;
+   
+?>

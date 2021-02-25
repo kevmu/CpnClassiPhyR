@@ -1,0 +1,13 @@
+Strain,Best Match,Similarity Coefficient Calculation,F Value,Classification
+KJ939987.1_1_1,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+KJ939990.1_2_2,V-IC,F = ( 2 * 29 ) / ( 29 + 29 ),1.0,Exact match to Cpn60 UT V-IC
+KJ939991.1_3_3,V-IC,F = ( 2 * 29 ) / ( 29 + 29 ),1.0,Exact match to Cpn60 UT V-IC
+KJ939994.1_4_4,I-IC,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IC
+KJ939998.1_5_5,I-IA,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IA
+KJ940004.1_6_6,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+KJ940006.1_7_7,XII-IA,F = ( 2 * 22 ) / ( 22 + 22 ),1.0,Exact match to Cpn60 UT XII-IA
+KJ940009.1_8_8,I-IA,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IA
+KJ940011.1_9_9,I-IA,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IA
+KJ940013.1_10_10,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+KJ940017.1_11_11,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+KJ940018.1_12_12,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB

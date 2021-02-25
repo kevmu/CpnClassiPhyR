@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+MPBG01000003.1_1,"MPBG01000003.1_1 Candidatus Phytoplasma solani strain SA-1 phyto26.14.03, whole genome shotgun sequence",MPBG01000003.1_1,b27168 KJ939979 Candidatus Phytoplasma solani Bois noir phytoplasma BN44948,34,99.819,552,1,0,271,822,1,552,plus,0.0,991,Phytoplasma sequence (+ strand)

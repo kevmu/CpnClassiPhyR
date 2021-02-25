@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+meliae_1,meliae_1 ,meliae_1,b27178 KT444662 Candidatus Phytoplasma sp. Mexican periwinkle virescence MPV-S83,34,93.841,552,34,0,793,1344,552,1,minus,0.0,843,Phytoplasma sequence (- strand)

@@ -1,0 +1,4 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+KF430807|_2,KF430807|_2 Brassica napus 16SrI-B,KF430807|_2,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,34,100.000,552,0,0,271,822,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)
+KJ494342|_1,KJ494342|_1 Primula acaulis 16SrI-B,KJ494342|_1,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,18,100.000,552,0,0,509,1060,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)
+KM272591|_3,KM272591|_3 Sesame phyllody 16SrI-B,KM272591|_3,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,42,100.000,552,0,0,216,767,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

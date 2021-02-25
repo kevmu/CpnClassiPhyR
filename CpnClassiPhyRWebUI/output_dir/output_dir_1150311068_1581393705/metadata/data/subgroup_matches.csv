@@ -1,0 +1,21 @@
+Strain,Best Match,Similarity Coefficient Calculation,F Value,Classification
+b27124_20,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27125_19,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27126_18,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27127_17,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27128_16,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27130_15,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27131_14,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27132_13,I-IB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IB
+b27133_12,I-IIB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-IIB
+b27134_11,I-IIB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-IIB
+b27136_10,I-IIIB,F = ( 2 * 25 ) / ( 25 + 25 ),1.0,Exact match to Cpn60 UT I-IIIB
+b27139_9,I-VB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-VB
+b27140_8,I-VB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-VB
+b27141_7,I-VB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-VB
+b27142_6,I-VB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-VB
+b27143_5,I-VB,F = ( 2 * 24 ) / ( 24 + 24 ),1.0,Exact match to Cpn60 UT I-VB
+b27146_4,I-IC,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IC
+b27147_3,I-IC,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IC
+b27148_2,I-IC,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IC
+b27149_1,I-IC,F = ( 2 * 23 ) / ( 23 + 23 ),1.0,Exact match to Cpn60 UT I-IC

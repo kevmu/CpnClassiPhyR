@@ -1,0 +1,3 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+seq2_2,seq2_2 ,seq2_2,b32834 MH922781 Candidatus Phytoplasma cocostanzaniae TagTall,34,92.572,552,41,0,268,819,1,552,plus,0.0,810,Phytoplasma sequence (+ strand)
+seq1_1,seq1_1 ,seq1_1,b32836 MH922783 Candidatus Phytoplasma palmae Palm-A-DR,48,84.783,552,84,0,268,819,1,552,plus,1.62e-179,618,Phytoplasma sequence (+ strand)

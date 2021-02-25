@@ -1,0 +1,2 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+KY704479.1_1,"KY704479.1_1 Candidatus Phytoplasma aurantifolia isolate 192-cpn60-C1.0.1 chaperonin-60 (cpn60) gene, partial cds",KY704479.1_1,b31188 KY986918 Candidatus Phytoplasma phoenicium ChicBS,100,100.000,552,0,0,1,552,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)

@@ -1,0 +1,3 @@
+Sequence ID,Description,Query ID,Target ID,Coverage,Percent Identity,Length,Mismatch,Gap Open,Query Start,Query End,Target Start,Target End,Strandedness,E-Value,Bit Score,Classification
+AB599686.1_1,AB599686.1_1 Aster yellows,AB599686.1_1,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,34,100.000,552,0,0,271,822,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)
+AB599705.1_2,AB599705.1_2 Primrose virescence,AB599705.1_2,b27105 KJ940013 Candidatus Phytoplasma asteris Linum usitatissimum phytoplasma SF1,34,100.000,552,0,0,271,822,1,552,plus,0.0,996,Phytoplasma sequence (+ strand)
