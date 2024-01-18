@@ -26,9 +26,10 @@ wget https://github.com/kevmu/CpnClassiPhyR/archive/master.zip && unzip master.z
 
 How to cite CpnClassiPhyR:
 
-Muirhead, K., Pérez-López, E., Bahder, B. W., Hill, J. E., and Dumonceaux, T. "The CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60 universal target sequences." Page in press in: Sustainable management of phytoplasma diseases in crops grown in the tropical belt. C. Olivier, T. Dumonceaux and E. Perez-Lopez, eds. 2019
+Muirhead, K., Pérez-López, E., Bahder, B. W., Hill, J. E., and Dumonceaux, T. "The CpnClassiPhyR facilitates phytoplasma classification and taxonomy using cpn60 universal target sequences." Sustainable management of phytoplasma diseases in crops grown in the tropical belt. C. Olivier, T. Dumonceaux and E. Perez-Lopez, eds. 2019
 
 Other Publications:
 
-Muirhead, K., Pérez-López, E., Bahder, B. W., Hill, J. E., and Dumonceaux, T. "The CpnClassiPhyR is a resource for cpn60 universal target-based classification of phytoplasmas" Page in press in: "Plant Disease". 2019
+Muirhead, K., Pérez-López, E., Bahder, B. W., Hill, J. E., and Dumonceaux, T. "The CpnClassiPhyR is a resource for cpn60 universal target-based classification of phytoplasmas." Plant Disease 2019 103:10, 2494-2497
+
 
