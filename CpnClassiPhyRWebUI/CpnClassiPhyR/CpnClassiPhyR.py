@@ -156,7 +156,7 @@ class CpnClassiPhyR():
                     if(target_strand == "plus"):
                         print(target_strand)
                         if(len(qseq) >= 604):
-                            cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "--format=fasta","-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "--format=fasta", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
+                            cutadapt_cmd = " ".join([cutadapt, "-g", "H279p=GATNNNGCAGGNGATGGAACMACNACN", "-g", "D0317=GATNNNKCNGGNGAYGGNACNACNACN", "-e", "0.04", "--no-indels", '<(echo -e \">{}\\n{}\")'.format(" ".join([qalltitles, "length=0 (+ strand)"]), qseq), "|", cutadapt, "-a", "H280p=AATGCNCCTGGTTTTGGNGANAAYCAN", "-a", "D0318=GAWGCNCCWRGTTTTGGNGANMAYCAN", "-e", "0.07692307692", "--no-indels", "--length-tag 'length='", "-","-o", blastn_outfile])
                             print(cutadapt_cmd)
                             p = Popen(cutadapt_cmd, stdout=PIPE, stderr=PIPE, shell=True, executable='/bin/bash')
                             (cutadapt_results, err) = p.communicate()
